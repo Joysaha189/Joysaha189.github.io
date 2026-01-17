@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Joy Saha"
+title                    : "Saha, Joy"
 title_separator          : "-"
 name                     : &name "Joy Saha"
 description              : &description "Joy Saha's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,7 +24,7 @@ repository               : "joysaha189/joysaha189.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Saha, Joy"
+  name             : "Joy Saha"
   pronouns         : "He/Him" 
   bio              : "2nd Year ECE PhD Student"
   location         : "Albany, NY"
