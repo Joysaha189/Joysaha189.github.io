@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "images/profile.jpg"
   name             : "Saha, Joy"
-  pronouns         : # example: "she/her"  
+  pronouns         : "He/Him" 
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Albany, NY"
+  employer         : "University  at Albany, SUNY"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "jsaha2@albany.edu" 
 
   # Academic websites
   academia         : # URL
