@@ -1,7 +1,6 @@
 
-{% include base_path %}
-
-<!-- Dark boot: default to dark before first paint, honour saved choice -->
+<!-- Theme bootstrap: default to dark before first paint, honor saved choice -->
+<meta name="color-scheme" content="dark light">
 <script>
   (function() {
     try {
@@ -12,30 +11,10 @@
       } else {
         document.documentElement.removeAttribute('data-theme');
       }
-    } catch (e) {
-      // If storage is blocked, still default to dark
-      document.documentElement.setAttribute('data-theme','dark');
-    }
+    } catch (e) {}
   })();
 </script>
 
-<!-- Prevent white flash before CSS is parsed -->
-<style>
-  html, body { background:#0b0f14; color:#e6e6e6; }
-</style>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="dark light">
-
-{% include seo.html %}
-
-{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}
-
-<script>
-  document.documentElement.className =
-    document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- Your main stylesheet -->
-{{ base_path }}/assets/css/main.css
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css"> --> this is head
