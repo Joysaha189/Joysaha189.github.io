@@ -2,42 +2,6 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// // "system". Default is "system".
-// let determineThemeSetting = () => {
-//   let themeSetting = localStorage.getItem("theme");
-//   return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
-// };
-
-// // Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// // "system", the computed theme is determined based on the user's system preference.
-// let determineComputedTheme = () => {
-//   let themeSetting = determineThemeSetting();
-//   if (themeSetting != "system") {
-//     return themeSetting;
-//   }
-//   return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
-// };
-
-// // detect OS/browser preference
-// const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-
-// // Set the theme on page load or when explicitly called
-// let setTheme = (theme) => {
-//   const use_theme =
-//     theme ||
-//     localStorage.getItem("theme") ||
-//     $("html").attr("data-theme") ||
-//     browserPref;
-
-//   if (use_theme === "dark") {
-//     $("html").attr("data-theme", "dark");
-//     $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-//   } else if (use_theme === "light") {
-//     $("html").removeAttr("data-theme");
-//     $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
-//   }
-// };
 
 // Determine the expected state: "dark", "light", or "system" (default = "system")
 let determineThemeSetting = () => {
@@ -51,17 +15,17 @@ let determineThemeSetting = () => {
 let determineComputedTheme = () => {
   const setting = determineThemeSetting();
   if (setting !== "system") return setting;
-  // Use OS preference when setting is "system"
+  // Use OS preference only when user hasn't chosen a theme
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 };
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
   const use_theme =
-    theme ||                         // explicit call wins
-    localStorage.getItem("theme") || // user choice (if any)
-    $("html").attr("data-theme") ||  // current doc attribute (if set early in head)
-    "dark";                          // <-- DEFAULT to dark when nothing else is set
+    theme ||                         // explicit argument wins
+    localStorage.getItem("theme") || // user choice if present
+    $("html").attr("data-theme") ||  // attribute possibly set in <head> bootstrap
+    "dark";                          // <-- DEFAULT to dark on first visit
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
@@ -73,13 +37,16 @@ let setTheme = (theme) => {
 };
 
 
+
 // Toggle the theme manually
+
 var toggleTheme = () => {
   const current_theme = $("html").attr("data-theme");
   const new_theme = current_theme === "dark" ? "light" : "dark";
   localStorage.setItem("theme", new_theme);
   setTheme(new_theme);
 };
+
 
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
