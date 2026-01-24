@@ -1,29 +1,27 @@
 
 {% include base_path %}
 
-<!-- ✅ FORCE DARK MODE BEFORE FIRST PAINT -->
+<!-- Dark boot: default to dark before first paint, honour saved choice -->
 <script>
   (function() {
     try {
       var saved = localStorage.getItem('theme'); // 'dark' | 'light' | null
-      var initial = saved || 'dark';             // default to dark
+      var initial = saved || 'dark';             // default to dark on first visit
       if (initial === 'dark') {
         document.documentElement.setAttribute('data-theme','dark');
       } else {
         document.documentElement.removeAttribute('data-theme');
       }
     } catch (e) {
+      // If storage is blocked, still default to dark
       document.documentElement.setAttribute('data-theme','dark');
     }
   })();
 </script>
 
-<!-- ✅ Prevent white flash before CSS loads -->
+<!-- Prevent white flash before CSS is parsed -->
 <style>
-  html, body {
-    background: #0b0f14;
-    color: #e6e6e6;
-  }
+  html, body { background:#0b0f14; color:#e6e6e6; }
 </style>
 
 <meta charset="utf-8">
@@ -32,11 +30,12 @@
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"
-      type="application/atom+xml"
-      rel="alternate"
-     ent.className.replace(/\bno-js\b/g, '') + ' js ';
+{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}
+
+<script>
+  document.documentElement.className =
+    document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- ✅ Main stylesheet LAST -->
-<linkse_path }}/assets/css/main.css
+<!-- Your main stylesheet -->
+{{ base_path }}/assets/css/main.css
