@@ -115,7 +115,7 @@ Conducted systematic experiments to analyze how architectural choices influence 
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Project%20Report-Joy.pdf"
     target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
-    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Poster_Joy.pptx"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Joy_Showcase_poster.pdf"
     target="_blank" rel="noopener">Poster</a>]
 </span>
 </div>
@@ -254,7 +254,7 @@ Designed and implemented a three-floor elevator control system focusing on reque
 
 <!-- Project 10 -->
 <div class="project-header">
-10. <a class="project-link" href="https://github.com/Joysaha189?tab=repositories" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
+10. <a class="project-link" href="https://github.com/Joysaha189?tab=repositories](https://github.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/EEE306-project-report.pdf"
@@ -300,11 +300,8 @@ Developed a complete electrical service layout covering load estimation, panel s
 <div class="project-header">
 12. <a class="project-link" href="https://github.com/Joysaha189/Laboratory-Variable-DC-Power-Supply" target="_blank" rel="noopener">Laboratory Variable DC Power Supply</a>
 <span class="project-links">
-[<a class="pdf"
-    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Laboratory-Variable-DC-Power-Supply/main/Deliverables/Laboratory-Variable-DC-Power-Supply-Report.pdf"
-    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
-    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Laboratory-Variable-DC-Power-Supply/main/Deliverables/Laboratory-Variable-DC-Power-Supply-Presentation.pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Laboratory-Variable-DC-Power-Supply/main/Deliverables/Group03_EEE316_ProjectDemonstration.pptx"
     target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
