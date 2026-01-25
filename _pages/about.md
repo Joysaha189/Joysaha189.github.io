@@ -50,9 +50,9 @@ Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh
 
 ## News
 
-- **10/2025** — Paper on Python code generation from natural-language instructions accepted at the *Second Bangla Language Processing (BLP) Workshop*, IJCNLP–AACL 2025  
-- **09/2025** — Ranked 4th in the *BLP‑2025 Code Generation Shared Task*  
-- **03/2024** — Paper on enhancing large language models for numerical and mathematical reasoning accepted at *SemEval*, NAACL 2024  
-- **03/2024** — Paper accepted at *FAccT 2024*  
-- **01/2024** — Ranked 5th in *SemEval‑2024*: Numeral‑Aware Headline Generation  
-- **10/2023** — Dataset paper on violence‑inciting text accepted at the *First Bangla Language Processing (BLP) Workshop*, EMNLP 2023  
+- **10/2025** —  
+- **09/2025** — 
+- **03/2024** —  
+- **03/2024** —
+- **01/2024** — 
+- **10/2023** — 
