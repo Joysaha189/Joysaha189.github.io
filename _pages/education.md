@@ -146,7 +146,7 @@ header:
           <span class="thesis-links">
             [
             <a class="pdf"
-               href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/UG_Thesis_1706189.pdf"
+               href="https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/UG_Thesis_1706189.pdf"
                target="_blank" rel="noopener">pdf</a>
             ]
             [
