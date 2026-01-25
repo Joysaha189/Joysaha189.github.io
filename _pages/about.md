@@ -36,7 +36,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - **03/2025** — Awarded the **College of Nanotechnology, Science, and Engineering (CNSE) Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering (ECE)**.
 - **08/2024** — Started PhD studies in the **Department of Electrical and Computer Engineering** at the **University at Albany (SUNY)**.
 - **06/2024** — Concluded teaching appointments at **Presidency University** and **Bangladesh University of Textiles (BUTEX)** in preparation for PhD studies at **UAlbany**, joining **IMAgINELab**.
-- **02/2024** — Appointed **Adjunct Lecturer** in the **Department of Electrical and Electronic Engineering** at **Bangladesh University of Textiles (BUTEX)**.
+- **02/2024** — Appointed **Adjunct Lecturer** in the **Department of Textile Machinery Design and Maintenance (TMDM)** at **Bangladesh University of Textiles (BUTEX)**.
 - **01/2024** — Appointed **Part-Time Lecturer** in the **Department of Electrical and Electronic Engineering** at **Presidency University**, Dhaka.
 - **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
 
