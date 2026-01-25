@@ -254,7 +254,7 @@ Designed and implemented a three-floor elevator control system focusing on reque
 
 <!-- Project 10 -->
 <div class="project-header">
-10. <a class="project-link" href="https://github.com/Joysaha189?tab=repositories](https://github.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
+10. <a class="project-link" href="https://github.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/EEE306-project-report.pdf"
