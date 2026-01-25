@@ -13,7 +13,7 @@ main:
   - title: CV
     url: /files/Joy_Saha_Resume.pdf
   - title: Education
-    url: /_pages/education/
+    url: /education/
   - title: Experience
     url: /experience/
   - title: Projects
