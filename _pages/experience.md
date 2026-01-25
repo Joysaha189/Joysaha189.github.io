@@ -1,3 +1,4 @@
+
 ---
 layout: single
 title: " "
@@ -15,7 +16,6 @@ header:
   padding: 0;
 }
 
-/* Two-column grid: [date] [content] */
 .exp-item {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -25,28 +25,22 @@ header:
   color: inherit;
 }
 
-/* DATE (left) */
 .exp-date {
   font-weight: 700;
-  color: inherit;
   line-height: 1.4;
   text-align: right;
   padding-right: 4px;
   white-space: nowrap;
 }
 
-/* CONTENT (right) */
-.exp-content {
-  color: inherit;
-}
-
 .exp-content h3 {
   margin: 0 0 0.25rem 0;
   font-size: 1.05rem;
-  line-height: 1.35;
 }
 
-.exp-content strong { font-weight: 600; }
+.exp-content strong {
+  font-weight: 600;
+}
 
 .exp-content .meta {
   margin: 0.35rem 0 0.1rem 0;
@@ -54,10 +48,14 @@ header:
   opacity: 0.9;
 }
 
-.exp-content ul { margin: 0.5rem 0 0 1rem; }
+.exp-content ul {
+  margin: 0.5rem 0 0 1rem;
+}
 
-/* Subtle divider between entries */
-.exp-item + .exp-item { position: relative; }
+.exp-item + .exp-item {
+  position: relative;
+}
+
 .exp-item + .exp-item::after {
   content: "";
   display: block;
@@ -68,15 +66,28 @@ header:
   opacity: 0.12;
 }
 
-/* ====== Responsive ====== */
 @media (max-width: 720px) {
-  .exp-item { grid-template-columns: 150px 1fr; }
-  .exp-item + .exp-item::after { margin-left: calc(150px + 16px); }
+  .exp-item {
+    grid-template-columns: 150px 1fr;
+  }
+  .exp-item + .exp-item::after {
+    margin-left: calc(150px + 16px);
+  }
 }
+
 @media (max-width: 520px) {
-  .exp-item { grid-template-columns: 1fr; align-items: start; }
-  .exp-date { text-align: left; margin-bottom: 0.25rem; white-space: normal; }
-  .exp-item + .exp-item::after { margin-left: 0; }
+  .exp-item {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .exp-date {
+    text-align: left;
+    margin-bottom: 0.25rem;
+    white-space: normal;
+  }
+  .exp-item + .exp-item::after {
+    margin-left: 0;
+  }
 }
 </style>
 
@@ -84,44 +95,52 @@ header:
 
   <!-- Graduate Teaching Assistant -->
   <div class="exp-item">
-    <div class="exp-date">Aug 2024 – Present</div>
+    <div class="exp-date">
+      Aug 2024 – May 2025<br/>
+      Aug 2025 – Present
+    </div>
     <div class="exp-content">
       <h3>Graduate Teaching Assistant</h3>
       <strong>University at Albany, SUNY</strong> — NY, United States
       <div class="meta">Department of Electrical and Computer Engineering</div>
-      <!-- Optional responsibilities
       <ul>
-        <li>Assisted in ECE coursework and labs; graded assignments.</li>
-        <li>Held office hours; supported <em>Signal Processing</em> and <em>Communications</em> courses.</li>
-      </ul> -->
+        <li>Supported undergraduate courses by assisting with grading, laboratory sessions, and student mentoring through office hours and tutorials.</li>
+        <li><strong>Courses Assisted:</strong>
+          <ul>
+            <li>IECE 371 — Signals and Systems (Fall 2024)</li>
+            <li>IECE 300 — Introduction to Electronics (Fall 2024)</li>
+            <li>IECE 310 — Engineering Electromagnetics (Spring 2025)</li>
+            <li>IECE 442 — System Analysis and Design (Spring 2025)</li>
+            <li>IECE 490/1 — Electrical System Design (Fall 2025)</li>
+            <li>IECE 310 — Engineering Electromagnetics (Spring 2026)</li>
+            <li>IECE 490/1 — Electrical System Design (Spring 2026)</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 
-  <!-- Research Project Assistant -->
-  <div class="exp-item">
-    <div class="exp-date">May 2025 – Aug 2025</div>
-    <div class="exp-content">
-      <h3>Research Project Assistant</h3>
-      <strong>The Research Foundation for SUNY</strong> — NY, United States
-      <div class="meta">Department of Electrical and Computer Engineering</div>
-      <!-- Optional responsibilities
-      <ul>
-        <li>Supported research on dynamic feature grouping and costly feature acquisition.</li>
-      </ul> -->
-    </div>
-  </div>
-
-  <!-- Part‑Time Lecturer -->
+  <!-- Part-Time Lecturer -->
   <div class="exp-item">
     <div class="exp-date">Jan 2024 – Aug 2024</div>
     <div class="exp-content">
       <h3>Part‑Time Lecturer</h3>
       <strong>Presidency University</strong> — Dhaka, Bangladesh
       <div class="meta">Department of Electrical and Electronic Engineering</div>
-      <!-- Optional responsibilities
       <ul>
-        <li>Delivered lectures; designed assessments and labs.</li>
-      </ul> -->
+        <li>Instructor for undergraduate Digital Electronics theory and laboratory courses.</li>
+        <li><strong>Courses Taught:</strong>
+          <ul>
+            <li>CSE‑207 — Digital Electronics</li>
+            <li>CSE‑208 / EE‑206 — Digital Electronics Laboratory</li>
+            <li>EE‑211 and EEE‑311 (Spring & Summer 2024)</li>
+          </ul>
+        </li>
+        <li>Developed course outlines aligned with academic objectives and industry relevance.</li>
+        <li>Conducted laboratory sessions emphasizing practical implementation.</li>
+        <li>Designed and evaluated examinations and assignments with constructive feedback.</li>
+        <li>Provided one‑on‑one mentoring to address student learning gaps.</li>
+      </ul>
     </div>
   </div>
 
@@ -130,12 +149,21 @@ header:
     <div class="exp-date">Feb 2024 – Jul 2024</div>
     <div class="exp-content">
       <h3>Adjunct Lecturer</h3>
-      <strong>Bangladesh University of Textiles</strong> — Dhaka, Bangladesh
+      <strong>Bangladesh University of Textiles (BUTEX)</strong> — Dhaka, Bangladesh
       <div class="meta">Department of Textile Machinery Design and Maintenance</div>
-      <!-- Optional responsibilities
       <ul>
-        <li>Taught core courses and advised student projects.</li>
-      </ul> -->
+        <li>Taught foundational and applied electrical engineering courses.</li>
+        <li><strong>Courses Taught:</strong>
+          <ul>
+            <li>MDM 201 — Fundamentals of Electrical and Electronic Engineering (WPE, AE, TFD)</li>
+            <li>MDM 202 — Fundamentals of Electrical and Electronic Engineering Laboratory (WPE, TFD)</li>
+            <li>MDM 305 — Machine Control Engineering (TMDM)</li>
+          </ul>
+        </li>
+        <li>Prepared structured course outlines and assessments.</li>
+        <li>Designed and administered theory exams, lab evaluations, and viva voce.</li>
+        <li>Supervised laboratories and supported students through individual guidance.</li>
+      </ul>
     </div>
   </div>
 
