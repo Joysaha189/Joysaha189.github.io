@@ -117,7 +117,7 @@ Conducted systematic experiments to analyze how architectural choices influence 
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Project%20Report-Joy.pdf"
     target="_blank" rel="noopener">pdf</a>]
 [<a class="slides"
-    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Poster_Joy.pptx"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Joy_Showcase_poster.pdf"
     target="_blank" rel="noopener">poster</a>]
 </span>
 </div>
