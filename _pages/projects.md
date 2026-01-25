@@ -7,15 +7,7 @@ author_profile: true
 header:
   overlay: false
 ---
----
-layout: single
-title: "Projects"
-permalink: /projects/
-type: pages
-author_profile: true
-header:
-  overlay: false
----
+
 
 <style>
 /* ====== Project links (same style as thesis) ====== */
