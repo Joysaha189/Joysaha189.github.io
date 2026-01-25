@@ -8,14 +8,14 @@ redirect_from:
 ---
 
 
-I am a second-year PhD student in the [Department of Electrical and Computer Engineering](https://www.albany.edu/ece) at the
-[University at Albany (SUNY)](https://www.albany.edu),
-advised by [Dr. Daphney-Stavrourla Zois](https://www.albany.edu/ece/faculty/daphney-stavroula-zois) of [IMAgINELab](https://imagine9lab.github.io/index.html)
-I completed my undergraduate studies at the [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/), Dhaka, Bangladesh in the [Department of EEE](https://eee.buet.ac.bd/) . Alongside my doctoral studies, I serve as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering** of the [College of Nanotechnology, Science, and Engineering (CNSE)](https://www.albany.edu/cnse) at the University at Albany.
+I am a **second-year PhD student** in the [Department of Electrical and Computer Engineering](https://www.albany.edu/ece) at the [University at Albany (SUNY)](https://www.albany.edu), advised by [Dr. Daphney-Stavrourla Zois](https://www.albany.edu/ece/faculty/daphney-stavroula-zois), and a member of [IMAgINELab](https://imagine9lab.github.io/index.html). I also serve as a **Teaching Assistant** in the Department of Electrical and Computer Engineering within the [College of Nanotechnology, Science, and Engineering (CNSE)](https://www.albany.edu/cnse) at UAlbany.
 
-Prior to joining UAlbany, I worked as an **Adjunct Lecturer** in the [Department of EEE](https://pu.edu.bd/eee/) at [Presidency University](https://pu.edu.bd/), Dhaka, and in the [Department of Textile Machinery Design and Maintenance (TMDM)](https://www.butex.edu.bd/department-of-textile-machinery-design-and-maintenance/) at the [Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd).
+I received my **B.Sc.** in [Electrical and Electronic Engineering (EEE)](https://eee.buet.ac.bd/) from the [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/), where I majored in **Communication and Signal Processing**. My undergraduate thesis was completed under the supervision of [Dr. Hafiz Imtiaz](https://hafizimtiaz.buet.ac.bd/) and [Dr. Tahsina Farah Sanam](https://sites.google.com/site/tahsinafarahsanam/).
 
-My broader goal is to build **adaptive, cost-aware, and interpretable machine learning systems** that can support reliable decision-making in dynamic and high-stakes environments.
+Before joining UAlbany, I worked as an **Adjunct Lecturer** in the [Department of Textile Machinery Design and Maintenance (TMDM)](https://www.butex.edu.bd/department-of-textile-machinery-design-and-maintenance/) at the [Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd) and as a **Part-time Lecturer** in the [Department of EEE](https://pu.edu.bd/eee/) at [Presidency University](https://pu.edu.bd/), Dhaka. 
+
+My research interests focus on **adaptive, cost-aware, and interpretable machine learning**, with the goal of enabling reliable decision-making in **dynamic and high-stakes environments**.
+
 
 ---
 
