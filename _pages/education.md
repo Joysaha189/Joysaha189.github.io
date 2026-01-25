@@ -110,6 +110,7 @@ header:
       </ul>
     </div>
   </div>
+  
 
   <!-- B.Sc. -->
   <div class="edu-item">
@@ -120,11 +121,19 @@ header:
       <ul>
         <li><strong>Major:</strong> Communication and Signal Processing</li>
         <li><strong>GPA:</strong> 3.61 / 4.00</li>
-        <li><strong>Undergraduate Thesis:</strong>
-          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
-            Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
-          </a>
-        </li>
+        <<li>
+  <strong>Undergraduate Thesis:</strong>
+  <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
+    Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
+  </a>
+  [
+  <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/UG_Thesis_1706189.pdf" target="_blank">pdf</a>
+  ]
+  [
+  <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/Theis-Presnatation.pdf" target="_blank">slides</a>
+  ]
+</li>
+
         <li><strong>Honors:</strong> Dean’s List (2022)</li>
       </ul>
     </div>
