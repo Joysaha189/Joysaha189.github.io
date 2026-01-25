@@ -111,9 +111,14 @@ Conducted systematic experiments to analyze how architectural choices influence 
 
 <!-- Project 3 -->
 <div class="project-header">
-3. <a class="project-link" href="#" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
+3. <a class="project-link" href="https://github.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Project%20Report-Joy.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Poster_Joy.pptx"
+    target="_blank" rel="noopener">poster</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -128,9 +133,14 @@ Performed a comparative study of second-order (AdaHessian) and first-order optim
 
 <!-- Project 4 -->
 <div class="project-header">
-4. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
+4. <a class="project-link" href="https://github.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -145,9 +155,14 @@ Built a vision-based system to monitor interpersonal distance in public spaces a
 
 <!-- Project 5 -->
 <div class="project-header">
-5. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
+5. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Presentation.pdf"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -162,9 +177,11 @@ Designed an IoT-enabled system for real-time heart-rate acquisition, visualizati
 
 <!-- Project 6 -->
 <div class="project-header">
-6. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
+6. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Environment-Monitor-System" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Environment-Monitor-System/main/Project%20Presentation.pdf"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
