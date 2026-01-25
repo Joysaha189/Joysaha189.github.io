@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Joy Saha's Personal Website"
+title: " "
 author_profile: true
 redirect_from: 
   - /about/
