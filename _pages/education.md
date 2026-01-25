@@ -10,14 +10,13 @@ author_profile: true
 ## Ph.D. in Electrical & Computer Engineering
 **University at Albany, SUNY**  
 * Aug 2024 – Present*
-
 - Research focus: Dynamic Feature Grouping, Costly Feature Acquisition
 - Advisor: Prof. Daphney-Stavourla Zois
 
 ---
 
 ## B.Sc. in Electrical and Electronic Engineering
-** Major In Communication and Signal Processing
+** Major In Communication and Signal Processing **
 **Bangladesh University of Engineering and Technology (BUET) **  
 *Mar 2018 –  May 2023*
 
