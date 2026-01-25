@@ -196,9 +196,11 @@ Developed a sensor-based IoT platform to monitor environmental parameters such a
 
 <!-- Project 7 -->
 <div class="project-header">
-7. <a class="project-link" href="#" target="_blank" rel="noopener">Password-Based Door Lock System</a>
+7. <a class="project-link" href="https://github.com/Joysaha189/Password-Based-Door-Lock-System" target="_blank" rel="noopener">Password-Based Door Lock System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Password-Based-Door-Lock-System/main/EEE%20304-%20Project%20Presentation.pdf"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -213,9 +215,14 @@ Implemented a microcontroller-based secure door lock system using keypad authent
 
 <!-- Project 8 -->
 <div class="project-header">
-8. <a class="project-link" href="#" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
+8. <a class="project-link" href="https://github.com/Joysaha189/TDM-PCM-System-Development-in-Proteus" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/EEE-310-project-report-group-13.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/eee-310-project-presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -230,9 +237,11 @@ Simulated a full TDM-PCM communication chain in Proteus, including sampling, qua
 
 <!-- Project 9 -->
 <div class="project-header">
-9. <a class="project-link" href="#" target="_blank" rel="noopener">Elevator With 3 Floors</a>
+9. <a class="project-link" href="https://github.com/Joysaha189/Elevator-With-3-Floors" target="_blank" rel="noopener">Elevator With 3 Floors</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Elevator-With-3-Floors/main/Files/Group08_EEE318_Project_Presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -247,9 +256,14 @@ Designed and implemented a three-floor elevator control system focusing on reque
 
 <!-- Project 10 -->
 <div class="project-header">
-10. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
+10. <a class="project-link" href="https://github.com/Joysaha189?tab=repositories" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener"> pdf </a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/EEE306-project-report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/Project-Presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -264,9 +278,14 @@ Analyzed the impact of HVDC integration and high-power industrial loads on stabi
 
 <!-- Project 11 -->
 <div class="project-header">
-11. <a class="project-link" href="#" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
+11. <a class="project-link" href="https://github.com/Joysaha189/Electrical-Service-Design-for-A-Six-Story-Residential-Building" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Electrical-Service-Design-for-A-Six-Story-Residential-Building/main/Deliverables/Project%20Report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Electrical-Service-Design-for-A-Six-Story-Residential-Building/main/Deliverables/Final%20Presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -276,6 +295,7 @@ Developed a complete electrical service layout covering load estimation, panel s
 <p class="project-keywords">
 <strong>Keywords:</strong> Power Distribution, Electrical Design
 </p>
+
 
 ---
 
