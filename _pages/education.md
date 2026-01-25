@@ -139,26 +139,23 @@ header:
         <li><strong>Major:</strong> Communication and Signal Processing</li>
         <li><strong>GPA:</strong> 3.61 / 4.00</li>
         <li>
-          <li>
-   <strong>Undergraduate Thesis:</strong>
-  <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
-    Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
-  </a>
-  <span class="thesis-links">
-    [
-    <a class="pdf"
-       href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/UG_Thesis_1706189.pdf"
-       target="_blank" rel="noopener">pdf</a>
-    ]
-    [
-    <a class="slides"
-       href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/Thesis-Presentation.pdf"
-       target="_blank" rel="noopener">slides</a>
-    ]
-  </span>
-</li>
-
-     </li>
+          <strong>Undergraduate Thesis:</strong>
+          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
+            Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
+          </a>
+          <span class="thesis-links">
+            [
+            <a class="pdf"
+               href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/UG_Thesis_1706189.pdf"
+               target="_blank" rel="noopener">pdf</a>
+            ]
+            [
+            <a class="slides"
+               href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/Thesis-Presentation.pdf"
+               target="_blank" rel="noopener">slides</a>
+            ]
+          </span>
+        </li>
         <li><strong>Honors:</strong> Dean’s List (2022)</li>
       </ul>
     </div>
