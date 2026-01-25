@@ -7,58 +7,66 @@ author_profile: true
 
 
 
+
 <style>
-/* ====== Education Timeline (Left-aligned dates, bold) ====== */
+/* ====== Education Timeline (Left dates, centered dot, theme color) ====== */
 .edu-timeline {
-  position: relative;
   margin: 0;
   padding: 0;
 }
 
-/* One entry in the timeline */
+/* Each entry uses a 3-column grid:
+   [date] [dot column] [content] */
 .edu-item {
-  position: relative;
   display: grid;
-  grid-template-columns: 160px 16px 1fr; /* left: date | middle: dot space | right: content */
+  grid-template-columns: 180px 20px 1fr; /* adjust 180px if your dates wrap */
   column-gap: 16px;
-  align-items: start;
-  margin-bottom: 2.25rem; /* space between entries */
+  align-items: center;                   /* centers the middle column vertically */
+  margin: 0 0 2.25rem 0;
+  color: inherit;                        /* keep theme color */
 }
 
-/* DATE (timeline label on the left) */
+/* DATE (left) */
 .edu-date {
-  font-weight: 700;         /* strong format */
-  color: #333;              /* readable, dark gray */
+  font-weight: 700;        /* bold */
+  color: inherit;          /* inherits theme color */
   line-height: 1.4;
-  text-align: right;        /* align date near the dot */
+  text-align: right;
   padding-right: 4px;
-  white-space: nowrap;      /* keeps the date on one line where possible */
+  white-space: nowrap;     /* prevents wrap if possible; adjust/remove if needed */
 }
 
-/* DOT (small visual cue instead of a long vertical line) */
+/* DOT (center column) — no vertical line, just a dot */
 .edu-dot {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;     /* vertical center of this column */
+  justify-content: center; /* horizontal center (the dot in the middle) */
 }
 
+/* the dot itself */
 .edu-dot::before {
   content: "";
-  position: absolute;
-  top: 0.35rem;             /* vertically centers dot relative to first content line */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 8px;
-  height: 8px;
-  background: #555;
+  width: 10px;
+  height: 10px;
+  background: currentColor; /* matches surrounding text color automatically */
   border-radius: 50%;
+  display: block;
+  /* optional ring for visibility on dark themes: */
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
 }
 
-/* CONTENT (degree, university, bullets) */
+/* CONTENT (right) */
+.edu-content {
+  color: inherit;
+}
+
 .edu-content h3 {
   margin: 0 0 0.25rem 0;
   font-size: 1.05rem;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .edu-content strong {
@@ -69,36 +77,42 @@ author_profile: true
   margin: 0.5rem 0 0 1rem;
 }
 
-/* A gentle divider between entries (optional; not a vertical line) */
+/* subtle divider between entries (short line, not a vertical timeline) */
+.edu-item + .edu-item {
+  position: relative;
+}
 .edu-item + .edu-item::after {
   content: "";
   display: block;
-  margin-left: 176px;       /* aligns under content start (160 + 16) */
+  margin-left: calc(180px + 20px + 16px); /* aligns under content start */
   margin-top: 1.5rem;
   height: 1px;
-  background: #eee;
+  background: currentColor;                /* theme color */
+  opacity: 0.12;                           /* very subtle */
 }
 
 /* ====== Responsive tweaks ====== */
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .edu-item {
-    grid-template-columns: 120px 16px 1fr;
+    grid-template-columns: 150px 20px 1fr;
   }
   .edu-item + .edu-item::after {
-    margin-left: 136px;
+    margin-left: calc(150px + 20px + 16px);
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
+  /* Stack vertically on very small screens */
   .edu-item {
-    grid-template-columns: 1fr;     /* stack on very small screens */
+    grid-template-columns: 1fr;
+    align-items: start;
   }
   .edu-date {
     text-align: left;
     margin-bottom: 0.25rem;
   }
   .edu-dot {
-    display: none;                  /* hide dot on tiny screens if you prefer */
+    display: none; /* hide dot on tiny screens for compactness (optional) */
   }
   .edu-item + .edu-item::after {
     margin-left: 0;
@@ -141,6 +155,9 @@ author_profile: true
       </ul>
     </div>
   </div>
+
+</div>
+
 
 </div>
 
