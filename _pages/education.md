@@ -147,12 +147,12 @@ header:
             [
             <a class="pdf"
                href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/UG_Thesis_1706189.pdf"
-               target="_blank" rel="noopener">pdf</a>
+               target="_blank" rel="noopener">PDF</a>
             ]
             [
             <a class="slides"
                href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/main/Deliverables/Thesis-Presentation.pdf"
-               target="_blank" rel="noopener">slides</a>
+               target="_blank" rel="noopener">Slides</a>
             ]
           </span>
         </li>
