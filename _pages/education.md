@@ -1,3 +1,4 @@
+
 ---
 layout: single
 title: ""
@@ -5,57 +6,31 @@ permalink: /education/
 author_profile: true
 ---
 
-
-
-
 <style>
-/* ====== Education Timeline (Left dates, centered dot, theme color) ====== */
+/* ====== Education Timeline (Left dates, centered alignment, no dot) ====== */
 .edu-timeline {
   margin: 0;
   padding: 0;
 }
 
-/* Each entry uses a 3-column grid:
-   [date] [dot column] [content] */
+/* Two-column grid: [date] [content] */
 .edu-item {
   display: grid;
-  grid-template-columns: 180px 20px 1fr; /* adjust 180px if your dates wrap */
+  grid-template-columns: 180px 1fr;  /* adjust 180px if your dates wrap */
   column-gap: 16px;
-  align-items: center;                   /* centers the middle column vertically */
+  align-items: center;               /* vertically center date vs content */
   margin: 0 0 2.25rem 0;
-  color: inherit;                        /* keep theme color */
+  color: inherit;                    /* follow site/theme color */
 }
 
 /* DATE (left) */
 .edu-date {
   font-weight: 700;        /* bold */
-  color: inherit;          /* inherits theme color */
+  color: inherit;          /* matches page text color */
   line-height: 1.4;
   text-align: right;
   padding-right: 4px;
-  white-space: nowrap;     /* prevents wrap if possible; adjust/remove if needed */
-}
-
-/* DOT (center column) — no vertical line, just a dot */
-.edu-dot {
-  position: relative;
-  width: 20px;
-  height: 100%;
-  display: flex;
-  align-items: center;     /* vertical center of this column */
-  justify-content: center; /* horizontal center (the dot in the middle) */
-}
-
-/* the dot itself */
-.edu-dot::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: currentColor; /* matches surrounding text color automatically */
-  border-radius: 50%;
-  display: block;
-  /* optional ring for visibility on dark themes: */
-  box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
+  white-space: nowrap;     /* keep dates on one line if possible */
 }
 
 /* CONTENT (right) */
@@ -77,27 +52,27 @@ author_profile: true
   margin: 0.5rem 0 0 1rem;
 }
 
-/* subtle divider between entries (short line, not a vertical timeline) */
+/* Subtle divider between entries (short line under content only) */
 .edu-item + .edu-item {
   position: relative;
 }
 .edu-item + .edu-item::after {
   content: "";
   display: block;
-  margin-left: calc(180px + 20px + 16px); /* aligns under content start */
+  margin-left: calc(180px + 16px);  /* aligns under content start */
   margin-top: 1.5rem;
   height: 1px;
-  background: currentColor;                /* theme color */
-  opacity: 0.12;                           /* very subtle */
+  background: currentColor;         /* inherits theme color */
+  opacity: 0.12;                    /* very subtle */
 }
 
 /* ====== Responsive tweaks ====== */
 @media (max-width: 720px) {
   .edu-item {
-    grid-template-columns: 150px 20px 1fr;
+    grid-template-columns: 150px 1fr;
   }
   .edu-item + .edu-item::after {
-    margin-left: calc(150px + 20px + 16px);
+    margin-left: calc(150px + 16px);
   }
 }
 
@@ -110,9 +85,7 @@ author_profile: true
   .edu-date {
     text-align: left;
     margin-bottom: 0.25rem;
-  }
-  .edu-dot {
-    display: none; /* hide dot on tiny screens for compactness (optional) */
+    white-space: normal;   /* allow wrapping on tiny screens */
   }
   .edu-item + .edu-item::after {
     margin-left: 0;
@@ -125,13 +98,13 @@ author_profile: true
   <!-- Ph.D. -->
   <div class="edu-item">
     <div class="edu-date"><strong>Aug 2024 – Present</strong></div>
-    <div class="edu-dot" aria-hidden="true"></div>
     <div class="edu-content">
       <h3>Ph.D. in Electrical and Computer Engineering</h3>
       <strong>University at Albany, SUNY</strong>
       <ul>
         <li><strong>Research Focus:</strong> Dynamic feature grouping; costly feature acquisition</li>
         <li><strong>Advisor:</strong> Prof. Daphney‑Stavourla Zois</li>
+        <li><strong>GPA:</strong> 4.00 / 4.00</li>
       </ul>
     </div>
   </div>
@@ -139,7 +112,6 @@ author_profile: true
   <!-- B.Sc. -->
   <div class="edu-item">
     <div class="edu-date"><strong>Mar 2018 – May 2023</strong></div>
-    <div class="edu-dot" aria-hidden="true"></div>
     <div class="edu-content">
       <h3>B.Sc. in Electrical and Electronic Engineering</h3>
       <strong>Bangladesh University of Engineering and Technology (BUET)</strong>
@@ -157,7 +129,3 @@ author_profile: true
   </div>
 
 </div>
-
-
-</div>
-
