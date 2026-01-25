@@ -59,7 +59,6 @@ header:
 }
 </style>
 
-# Selected Projects
 
 Below is a curated list of academic, research, and technical projects spanning machine learning, signal processing, control systems, IoT, and power systems.
 
@@ -70,10 +69,10 @@ Below is a curated list of academic, research, and technical projects spanning m
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/CSI-Based-Sign-Language-Recognition-Using-CNN-GRU-Architecture-Enhanced-with-Attention/main/Deliverables/DL_Project%20Report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/CSI-Based-Sign-Language-Recognition-Using-CNN-GRU-Architecture-Enhanced-with-Attention/main/Deliverables/Project%20Presentation.pdf"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -92,10 +91,10 @@ Developed a WiFi CSI-based sign language recognition framework using CNN-GRU wit
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/CSI_536_Final_Project_Report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/Final_Presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -106,7 +105,6 @@ Conducted systematic experiments to analyze how architectural choices influence 
 <strong>Keywords:</strong> Deep Learning, Neural Network Design
 </p>
 
-
 ---
 
 <!-- Project 3 -->
@@ -115,10 +113,10 @@ Conducted systematic experiments to analyze how architectural choices influence 
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Project%20Report-Joy.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
-    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Joy_Showcase_poster.pdf"
-    target="_blank" rel="noopener">poster</a>]
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Poster_Joy.pptx"
+    target="_blank" rel="noopener">Poster</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -137,10 +135,10 @@ Performed a comparative study of second-order (AdaHessian) and first-order optim
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -159,10 +157,10 @@ Built a vision-based system to monitor interpersonal distance in public spaces a
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Presentation.pdf"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -181,7 +179,7 @@ Designed an IoT-enabled system for real-time heart-rate acquisition, visualizati
 <span class="project-links">
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Environment-Monitor-System/main/Project%20Presentation.pdf"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -200,7 +198,7 @@ Developed a sensor-based IoT platform to monitor environmental parameters such a
 <span class="project-links">
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Password-Based-Door-Lock-System/main/EEE%20304-%20Project%20Presentation.pdf"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -219,10 +217,10 @@ Implemented a microcontroller-based secure door lock system using keypad authent
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/EEE-310-project-report-group-13.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/eee-310-project-presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -241,7 +239,7 @@ Simulated a full TDM-PCM communication chain in Proteus, including sampling, qua
 <span class="project-links">
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Elevator-With-3-Floors/main/Files/Group08_EEE318_Project_Presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -260,10 +258,10 @@ Designed and implemented a three-floor elevator control system focusing on reque
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/EEE306-project-report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/INVESTIGATING-THE-EFFECT-OF-HVDC-CONNECTION-AND-LARGE-INDUSTRIAL-LOADS-IN-IEEE-39-BUS-NETWORK/main/Deliverables/Project-Presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -282,10 +280,10 @@ Analyzed the impact of HVDC integration and high-power industrial loads on stabi
 <span class="project-links">
 [<a class="pdf"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Electrical-Service-Design-for-A-Six-Story-Residential-Building/main/Deliverables/Project%20Report.pdf"
-    target="_blank" rel="noopener">pdf</a>]
+    target="_blank" rel="noopener">Report</a>]
 [<a class="slides"
     href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Electrical-Service-Design-for-A-Six-Story-Residential-Building/main/Deliverables/Final%20Presentation.pptx"
-    target="_blank" rel="noopener">slides</a>]
+    target="_blank" rel="noopener">Slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -296,7 +294,27 @@ Developed a complete electrical service layout covering load estimation, panel s
 <strong>Keywords:</strong> Power Distribution, Electrical Design
 </p>
 
-
 ---
 
-*Additional details, code repositories, and publications are available upon request.*
+<!-- Project 12 -->
+<div class="project-header">
+12. <a class="project-link" href="https://github.com/Joysaha189/Laboratory-Variable-DC-Power-Supply" target="_blank" rel="noopener">Laboratory Variable DC Power Supply</a>
+<span class="project-links">
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Laboratory-Variable-DC-Power-Supply/main/Deliverables/Laboratory-Variable-DC-Power-Supply-Report.pdf"
+    target="_blank" rel="noopener">Report</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Laboratory-Variable-DC-Power-Supply/main/Deliverables/Laboratory-Variable-DC-Power-Supply-Presentation.pdf"
+    target="_blank" rel="noopener">Slides</a>]
+</span>
+</div>
+<div class="project-separator"></div>
+<p class="project-desc">
+Built a laboratory DC power supply with variable voltage and current outputs for educational and experimental purposes.
+</p>
+<p class="project-keywords">
+<strong>Keywords:</strong> Electronics, Power Supply, Laboratory
+</p>
+
+
+
