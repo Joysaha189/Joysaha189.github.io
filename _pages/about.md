@@ -31,9 +31,12 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
 ## News
 
-- **10/2025** —  
-- **09/2025** — 
-- **03/2024** —  
-- **03/2024** —
-- **01/2024** — 
-- **10/2023** — 
+- **01/2026** — Paper *“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”* rejected from **ICASSP 2026** with minor reviewer feedback.
+- **09/2025** — Paper submitted to **ICASSP 2026**.
+- **03/2025** — Awarded the **College of Nanotechnology, Science, and Engineering (CNSE) Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering (ECE)**.
+- **08/2024** — Started PhD studies in the **Department of Electrical and Computer Engineering** at the **University at Albany (SUNY)**.
+- **06/2024** — Concluded teaching appointments at **Presidency University** and **Bangladesh University of Textiles (BUTEX)** in preparation for PhD studies at **UAlbany**, joining **IMAgINELab**.
+- **02/2024** — Appointed **Adjunct Lecturer** in the **Department of Electrical and Electronic Engineering** at **Bangladesh University of Textiles (BUTEX)**.
+- **01/2024** — Appointed **Part-Time Lecturer** in the **Department of Electrical and Electronic Engineering** at **Presidency University**, Dhaka.
+- **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
+
