@@ -54,7 +54,7 @@ header:
 
 # Selected Projects
 
-Below is a curated list of academic, research, and technical projects spanning control systems, signal processing, machine learning, power systems, and IoT.
+Below is a curated list of academic, research, and technical projects spanning machine learning, signal processing, control systems, IoT, and power systems.
 
 ---
 
