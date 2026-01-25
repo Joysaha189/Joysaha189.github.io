@@ -91,6 +91,7 @@ header:
 </style>
 
 
+
 <div class="exp-timeline">
 
   <!-- Graduate Teaching Assistant -->
@@ -105,6 +106,7 @@ header:
       <div class="meta">Department of Electrical and Computer Engineering</div>
       <ul>
         <li>Supported undergraduate courses by assisting with grading, laboratory sessions, and student mentoring through office hours and tutorials.</li>
+        <li><strong>Award:</strong> CNSE Excellence in Teaching (2025)</li>
         <li><strong>Courses Assisted:</strong>
           <ul>
             <li>IECE 371 — Signals and Systems (Fall 2024)</li>
@@ -115,6 +117,21 @@ header:
             <li>IECE 310 — Engineering Electromagnetics (Spring 2026)</li>
             <li>IECE 490/1 — Electrical System Design (Spring 2026)</li>
           </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Research Project Assistant -->
+  <div class="exp-item">
+    <div class="exp-date">May 2025 – Aug 2025</div>
+    <div class="exp-content">
+      <h3>Research Project Assistant</h3>
+      <strong>The Research Foundation for SUNY</strong> — NY, United States
+      <div class="meta">Department of Electrical and Computer Engineering</div>
+      <ul>
+        <li>
+          Developed a sequential, instance‑specific feature acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. Evaluated on nine public datasets; extended toward a journal paper with initial results submitted to ICASSP 2026.
         </li>
       </ul>
     </div>
