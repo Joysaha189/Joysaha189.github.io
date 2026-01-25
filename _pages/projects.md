@@ -221,7 +221,7 @@ Designed and implemented a three-floor elevator control system focusing on reque
 <div class="project-header">
 10. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener"> pdf </a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
