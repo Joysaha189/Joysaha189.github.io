@@ -13,7 +13,7 @@ main:
     url: /files/Joy_Saha_Resume.pdf
 
  - title: "Education"
-    url: /education
+    url: /education/
 
   - title: "Experience"
     url: /experience/
