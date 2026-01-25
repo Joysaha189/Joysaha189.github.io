@@ -1,7 +1,7 @@
 
 ---
 layout: single
-title: ""
+title: 
 permalink: /education/
 type: pages
 author_profile: true
