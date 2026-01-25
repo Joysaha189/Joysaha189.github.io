@@ -1,3 +1,95 @@
+---
+layout: single
+title: " "
+permalink: /experience/
+type: pages
+author_profile: true
+header:
+  overlay: false
+---
+
+<style>
+/* ====== Experience Timeline (Left dates, two-column grid, subtle divider) ====== */
+.exp-timeline {
+  margin: 0;
+  padding: 0;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  column-gap: 16px;
+  align-items: center;
+  margin: 0 0 2.25rem 0;
+  color: inherit;
+}
+
+.exp-date {
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: right;
+  padding-right: 4px;
+  white-space: nowrap;
+}
+
+.exp-content h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.05rem;
+}
+
+.exp-content strong {
+  font-weight: 600;
+}
+
+.exp-content .meta {
+  margin: 0.35rem 0 0.1rem 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.exp-content ul {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.exp-item + .exp-item {
+  position: relative;
+}
+
+.exp-item + .exp-item::after {
+  content: "";
+  display: block;
+  margin-left: calc(180px + 16px);
+  margin-top: 1.5rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.12;
+}
+
+@media (max-width: 720px) {
+  .exp-item {
+    grid-template-columns: 150px 1fr;
+  }
+  .exp-item + .exp-item::after {
+    margin-left: calc(150px + 16px);
+  }
+}
+
+@media (max-width: 520px) {
+  .exp-item {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .exp-date {
+    text-align: left;
+    margin-bottom: 0.25rem;
+    white-space: normal;
+  }
+  .exp-item + .exp-item::after {
+    margin-left: 0;
+  }
+}
+</style>
+
 
 <div class="exp-timeline">
 
