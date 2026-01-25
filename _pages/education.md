@@ -68,6 +68,24 @@ header:
   opacity: 0.12;
 }
 
+/* ====== Thesis link colors ====== */
+.thesis-links a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.thesis-links a.pdf {
+  color: #1f6feb; /* blue */
+}
+
+.thesis-links a.slides {
+  color: #d97706; /* orange */
+}
+
+.thesis-links a:hover {
+  text-decoration: underline;
+}
+
 /* ====== Responsive ====== */
 @media (max-width: 720px) {
   .edu-item {
@@ -125,12 +143,18 @@ header:
           <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
             Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
           </a>
-          [
-          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/UG_Thesis_1706189.pdf" target="_blank" rel="noopener">pdf</a>
-          ]
-          [
-          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/Thesis-Presentation.pdf" target="_blank" rel="noopener">slides</a>
-          ]
+          <span class="thesis-links">
+            [
+            <a class="pdf"
+               href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/UG_Thesis_1706189.pdf"
+               target="_blank" rel="noopener">pdf</a>
+            ]
+            [
+            <a class="slides"
+               href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data/blob/main/Deliverables/Thesis-Presentation.pdf"
+               target="_blank" rel="noopener">slides</a>
+            ]
+          </span>
         </li>
         <li><strong>Honors:</strong> Dean’s List (2022)</li>
       </ul>
