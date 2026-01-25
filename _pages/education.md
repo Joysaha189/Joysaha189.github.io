@@ -121,7 +121,7 @@ header:
         <li><strong>Major:</strong> Communication and Signal Processing</li>
         <li><strong>GPA:</strong> 3.61 / 4.00</li>
         <li><strong>Undergraduate Thesis:</strong>
-          <a href="https://github.com/Joysaha189">
+          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
             Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
           </a>
         </li>
