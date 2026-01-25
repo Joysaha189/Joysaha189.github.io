@@ -68,7 +68,7 @@ Below is a curated list of academic, research, and technical projects spanning m
 <div class="project-header">
 1. <a class="project-link" href="#" target="_blank" rel="noopener">CSI-Based Sign Language Recognition Using CNN-GRU Architecture Enhanced with Attention</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -85,7 +85,7 @@ Developed a WiFi CSI-based sign language recognition framework using CNN-GRU wit
 <div class="project-header">
 2. <a class="project-link" href="#" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -102,7 +102,7 @@ Conducted systematic experiments to analyze how architectural choices influence 
 <div class="project-header">
 3. <a class="project-link" href="#" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -119,7 +119,7 @@ Performed a comparative study of second-order (AdaHessian) and first-order optim
 <div class="project-header">
 4. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -136,7 +136,7 @@ Built a vision-based system to monitor interpersonal distance in public spaces a
 <div class="project-header">
 5. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -153,7 +153,7 @@ Designed an IoT-enabled system for real-time heart-rate acquisition, visualizati
 <div class="project-header">
 6. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -170,7 +170,7 @@ Developed a sensor-based IoT platform to monitor environmental parameters such a
 <div class="project-header">
 7. <a class="project-link" href="#" target="_blank" rel="noopener">Password-Based Door Lock System</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -187,7 +187,7 @@ Implemented a microcontroller-based secure door lock system using keypad authent
 <div class="project-header">
 8. <a class="project-link" href="#" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -204,7 +204,7 @@ Simulated a full TDM-PCM communication chain in Proteus, including sampling, qua
 <div class="project-header">
 9. <a class="project-link" href="#" target="_blank" rel="noopener">Elevator With 3 Floors</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -221,7 +221,7 @@ Designed and implemented a three-floor elevator control system focusing on reque
 <div class="project-header">
 10. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener"> pdf </a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener"> pdf </a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -238,7 +238,7 @@ Analyzed the impact of HVDC integration and high-power industrial loads on stabi
 <div class="project-header">
 11. <a class="project-link" href="#" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
