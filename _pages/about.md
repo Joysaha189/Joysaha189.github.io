@@ -9,10 +9,10 @@ redirect_from:
 
 ## Joy Saha
 
-I am a second-year PhD student in the **Department of Electrical and Computer Engineering** at the
+I am a second-year PhD student in the [Department of Electrical and Computer Engineering](https://www.albany.edu/ece) at the
 [University at Albany (SUNY)](https://www.albany.edu),
-advised by [Dr. Daphney Stavoural Zois]([https://www.albany.edu/engineering/faculty/daphney-stavoural-zois](https://www.albany.edu/ece/faculty/daphney-stavroula-zois)).
-I completed my undergraduate studies at the **Bangladesh University of Engineering and Technology (BUET)**, Dhaka, Bangladesh. Alongside my doctoral studies, I serve as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering** and the **College of Nanotechnology, Science, and Engineering (CNSE)** at the University at Albany.
+advised by [Dr. Daphney-Stavrourla Zois](https://www.albany.edu/ece/faculty/daphney-stavroula-zois).
+I completed my undergraduate studies at the **Bangladesh University of Engineering and Technology (BUET)**, Dhaka, Bangladesh. Alongside my doctoral studies, I serve as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering** and the [College of Nanotechnology, Science, and Engineering (CNSE)](https://www.albany.edu/cnse) at the University at Albany.
 
 Prior to joining UAlbany, I worked as an **Adjunct Lecturer** in the **Department of Electrical and Electronic Engineering** at **Presidency University**, Dhaka, and in the **Department of Textile Machinery Design and Maintenance (TMDM)** at the **Bangladesh University of Textiles (BUTEX)**.
 
