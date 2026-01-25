@@ -103,6 +103,7 @@ header:
       <h3>Ph.D. in Electrical and Computer Engineering</h3>
       <strong>University at Albany, SUNY</strong>
       <ul>
+        <li><strong>Major:</strong> Signal Processing and Communications</li>
         <li><strong>GPA:</strong> 4.00 / 4.00</li>
         <li><strong>Research Focus:</strong> Dynamic feature grouping; costly feature acquisition</li>
         <li><strong>Advisor:</strong> Prof. Daphney-Stavourla Zois</li>
