@@ -64,11 +64,16 @@ header:
 Below is a curated list of academic, research, and technical projects spanning machine learning, signal processing, control systems, IoT, and power systems.
 
 
-<!-- Project 3 -->
+<!-- Project 1 -->
 <div class="project-header">
-1. <a class="project-link" href="#" target="_blank" rel="noopener">CSI-Based Sign Language Recognition Using CNN-GRU Architecture Enhanced with Attention</a>
+1. <a class="project-link" href="https://github.com/Joysaha189/CSI-Based-Sign-Language-Recognition-Using-CNN-GRU-Architecture-Enhanced-with-Attention" target="_blank" rel="noopener">CSI-Based Sign Language Recognition Using CNN-GRU Architecture Enhanced with Attention</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/CSI-Based-Sign-Language-Recognition-Using-CNN-GRU-Architecture-Enhanced-with-Attention/main/Deliverables/DL_Project%20Report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/CSI-Based-Sign-Language-Recognition-Using-CNN-GRU-Architecture-Enhanced-with-Attention/main/Deliverables/Project%20Presentation.pdf"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -83,9 +88,14 @@ Developed a WiFi CSI-based sign language recognition framework using CNN-GRU wit
 
 <!-- Project 2 -->
 <div class="project-header">
-2. <a class="project-link" href="#" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
+2. <a class="project-link" href="https://github.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
 <span class="project-links">
-[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>] [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+[<a class="pdf"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/CSI_536_Final_Project_Report.pdf"
+    target="_blank" rel="noopener">pdf</a>]
+[<a class="slides"
+    href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/Final_Presentation.pptx"
+    target="_blank" rel="noopener">slides</a>]
 </span>
 </div>
 <div class="project-separator"></div>
@@ -96,9 +106,10 @@ Conducted systematic experiments to analyze how architectural choices influence 
 <strong>Keywords:</strong> Deep Learning, Neural Network Design
 </p>
 
+
 ---
 
-<!-- Project 4 -->
+<!-- Project 3 -->
 <div class="project-header">
 3. <a class="project-link" href="#" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
 <span class="project-links">
@@ -115,7 +126,7 @@ Performed a comparative study of second-order (AdaHessian) and first-order optim
 
 ---
 
-<!-- Project 8 -->
+<!-- Project 4 -->
 <div class="project-header">
 4. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
 <span class="project-links">
@@ -132,7 +143,7 @@ Built a vision-based system to monitor interpersonal distance in public spaces a
 
 ---
 
-<!-- Project 10 -->
+<!-- Project 5 -->
 <div class="project-header">
 5. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
 <span class="project-links">
@@ -149,7 +160,7 @@ Designed an IoT-enabled system for real-time heart-rate acquisition, visualizati
 
 ---
 
-<!-- Project 11 -->
+<!-- Project 6 -->
 <div class="project-header">
 6. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
 <span class="project-links">
@@ -166,7 +177,7 @@ Developed a sensor-based IoT platform to monitor environmental parameters such a
 
 ---
 
-<!-- Project 9 -->
+<!-- Project 7 -->
 <div class="project-header">
 7. <a class="project-link" href="#" target="_blank" rel="noopener">Password-Based Door Lock System</a>
 <span class="project-links">
@@ -183,7 +194,7 @@ Implemented a microcontroller-based secure door lock system using keypad authent
 
 ---
 
-<!-- Project 6 -->
+<!-- Project 8 -->
 <div class="project-header">
 8. <a class="project-link" href="#" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
 <span class="project-links">
@@ -200,7 +211,7 @@ Simulated a full TDM-PCM communication chain in Proteus, including sampling, qua
 
 ---
 
-<!-- Project 1 -->
+<!-- Project 9 -->
 <div class="project-header">
 9. <a class="project-link" href="#" target="_blank" rel="noopener">Elevator With 3 Floors</a>
 <span class="project-links">
@@ -217,7 +228,7 @@ Designed and implemented a three-floor elevator control system focusing on reque
 
 ---
 
-<!-- Project 12 -->
+<!-- Project 10 -->
 <div class="project-header">
 10. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
 <span class="project-links">
@@ -234,7 +245,7 @@ Analyzed the impact of HVDC integration and high-power industrial loads on stabi
 
 ---
 
-<!-- Project 7 -->
+<!-- Project 11 -->
 <div class="project-header">
 11. <a class="project-link" href="#" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
 <span class="project-links">
