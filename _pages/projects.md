@@ -18,9 +18,10 @@ header:
 
 .project-header a.project-link {
   text-decoration: underline;
-  color: inherit; /* inherit from parent element */
+  /* default hyperlink color */
 }
 
+/* Project links */
 .project-links a.pdf {
   color: #1f6feb; /* blue */
   font-weight: 500;
@@ -42,7 +43,7 @@ header:
 
 /* Bolder separator line */
 .project-separator {
-  border-bottom: 2px solid #444; /* thicker and darker */
+  border-bottom: 2px solid #444; /* thicker line */
   margin: 0.4rem 0 0.6rem 0;
 }
 
@@ -64,13 +65,12 @@ Below is a curated list of academic, research, and technical projects spanning m
 
 ---
 
-<!-- Custom Order: 3, 2, 4, 8, 10, 11, 9, 8, 6, 1, 12, 7 -->
-
-<div class="project-header">1. <a class="project-link" href="#" target="_blank" rel="noopener">CSI-Based Sign Language Recognition Using CNN-GRU Architecture Enhanced with Attention</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+<!-- Project 3 -->
+<div class="project-header">
+3. <a class="project-link" href="#" target="_blank" rel="noopener">CSI-Based Sign Language Recognition Using CNN-GRU Architecture Enhanced with Attention</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -80,11 +80,14 @@ Developed a WiFi CSI-based sign language recognition framework using CNN-GRU wit
 <strong>Keywords:</strong> CSI, Deep Learning, Human Activity Recognition
 </p>
 
-<div class="project-header">2. <a class="project-link" href="#" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 2 -->
+<div class="project-header">
+2. <a class="project-link" href="#" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -94,11 +97,14 @@ Conducted systematic experiments to analyze how architectural choices influence 
 <strong>Keywords:</strong> Deep Learning, Neural Network Design
 </p>
 
-<div class="project-header">3. <a class="project-link" href="#" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 4 -->
+<div class="project-header">
+4. <a class="project-link" href="#" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -108,11 +114,14 @@ Performed a comparative study of second-order (AdaHessian) and first-order optim
 <strong>Keywords:</strong> Optimization, Deep Learning
 </p>
 
-<div class="project-header">4. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 8 -->
+<div class="project-header">
+8. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -122,11 +131,14 @@ Built a vision-based system to monitor interpersonal distance in public spaces a
 <strong>Keywords:</strong> Computer Vision, Public Health
 </p>
 
-<div class="project-header">5. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 10 -->
+<div class="project-header">
+10. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -136,11 +148,14 @@ Designed an IoT-enabled system for real-time heart-rate acquisition, visualizati
 <strong>Keywords:</strong> IoT, Biomedical Signal Processing
 </p>
 
-<div class="project-header">6. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 11 -->
+<div class="project-header">
+11. <a class="project-link" href="#" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -150,11 +165,14 @@ Developed a sensor-based IoT platform to monitor environmental parameters such a
 <strong>Keywords:</strong> IoT, Sensors
 </p>
 
-<div class="project-header">7. <a class="project-link" href="#" target="_blank" rel="noopener">Password-Based Door Lock System</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 9 -->
+<div class="project-header">
+9. <a class="project-link" href="#" target="_blank" rel="noopener">Password-Based Door Lock System</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -164,25 +182,14 @@ Implemented a microcontroller-based secure door lock system using keypad authent
 <strong>Keywords:</strong> Embedded Systems, Security
 </p>
 
-<div class="project-header">8. <a class="project-link" href="#" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
-</div>
-<div class="project-separator"></div>
-<p class="project-desc">
-Built a vision-based system to monitor interpersonal distance in public spaces and flag violations using real-time object detection.
-</p>
-<p class="project-keywords">
-<strong>Keywords:</strong> Computer Vision, Public Health
-</p>
+---
 
-<div class="project-header">9. <a class="project-link" href="#" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+<!-- Project 6 -->
+<div class="project-header">
+6. <a class="project-link" href="#" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -192,11 +199,14 @@ Simulated a full TDM-PCM communication chain in Proteus, including sampling, qua
 <strong>Keywords:</strong> Digital Communication, Simulation
 </p>
 
-<div class="project-header">10. <a class="project-link" href="#" target="_blank" rel="noopener">Elevator With 3 Floors</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 1 -->
+<div class="project-header">
+1. <a class="project-link" href="#" target="_blank" rel="noopener">Elevator With 3 Floors</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -206,11 +216,14 @@ Designed and implemented a three-floor elevator control system focusing on reque
 <strong>Keywords:</strong> Digital Logic, Control Systems
 </p>
 
-<div class="project-header">11. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 12 -->
+<div class="project-header">
+12. <a class="project-link" href="#" target="_blank" rel="noopener">Investigating the Effect of HVDC Connection and Large Industrial Loads in IEEE-39 Bus Network</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
@@ -220,11 +233,14 @@ Analyzed the impact of HVDC integration and high-power industrial loads on stabi
 <strong>Keywords:</strong> Power Systems, Smart Grid
 </p>
 
-<div class="project-header">12. <a class="project-link" href="#" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
-  <span class="project-links">
-    [<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>]
-    [<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
-  </span>
+---
+
+<!-- Project 7 -->
+<div class="project-header">
+7. <a class="project-link" href="#" target="_blank" rel="noopener">Electrical Service Design for a Six-Story Residential Building</a>
+<span class="project-links">
+[<a class="pdf" href="#" target="_blank" rel="noopener">pdf</a>][<a class="slides" href="#" target="_blank" rel="noopener">slides</a>]
+</span>
 </div>
 <div class="project-separator"></div>
 <p class="project-desc">
