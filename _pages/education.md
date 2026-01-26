@@ -8,13 +8,13 @@ header:
   overlay: false
 ---
 <style>
-/* ====== Education Timeline (Left dates, centered alignment, no dot) ====== */
+/* ====== Education Timeline ====== */
 .edu-timeline {
   margin: 0;
   padding: 0;
 }
 
-/* Two-column grid: [date] [content] */
+/* Two-column grid */
 .edu-item {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -34,38 +34,35 @@ header:
   border-left-color: #764ba2;
 }
 
+/* ====== PhD (FIRST ITEM) BOX COLOR ====== */
 .edu-item:first-child {
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #ff6b6b;
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-left-color: #0284c7;
 }
 
 .edu-item:first-child:hover {
-  border-left-color: #ee5a24;
+  border-left-color: #0369a1;
 }
 
-/* DATE (left) */
+/* DATE */
 .edu-date {
   font-weight: 700;
-  color: #2d3748;
   line-height: 1.4;
   text-align: right;
-  padding-right: 4px;
   white-space: nowrap;
   font-size: 0.95rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .edu-item:first-child .edu-date {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
-/* CONTENT (right) */
+/* CONTENT */
 .edu-content {
   color: #2d3748;
 }
@@ -74,39 +71,39 @@ header:
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
   line-height: 1.35;
-  color: #1a202c;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
+/* PhD title */
 .edu-item:first-child .edu-content h3 {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
+/* University name */
 .edu-content strong:first-of-type {
   font-weight: 700;
   font-size: 1.05rem;
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
+/* PhD university name */
 .edu-item:first-child .edu-content strong:first-of-type {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
-.edu-content strong {
-  font-weight: 600;
-  color: #4a5568;
+/* Text inside PhD box */
+.edu-item:first-child .edu-content,
+.edu-item:first-child .edu-content li,
+.edu-item:first-child .edu-content strong {
+  color: #0f172a;
 }
 
 .edu-content ul {
@@ -115,19 +112,9 @@ header:
 
 .edu-content li {
   margin-bottom: 0.4rem;
-  color: #2d3748;
 }
 
-.edu-content li a {
-  color: #1f6feb;
-  text-decoration: none;
-}
-
-.edu-content li a:hover {
-  text-decoration: underline;
-}
-
-/* Subtle divider between entries */
+/* Divider */
 .edu-item + .edu-item {
   position: relative;
   margin-top: 2rem;
@@ -135,7 +122,6 @@ header:
 
 .edu-item + .edu-item::after {
   content: "";
-  display: block;
   position: absolute;
   top: -1rem;
   left: calc(180px + 16px + 1.5rem);
@@ -145,72 +131,41 @@ header:
   opacity: 0.3;
 }
 
-/* ====== Thesis link colors ====== */
-.thesis-links {
-  display: inline-block;
-  margin-top: 0.25rem;
-}
-
+/* Thesis links */
 .thesis-links a {
   font-weight: 600;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  transition: all 0.2s ease;
-  display: inline-block;
 }
 
 .thesis-links a.pdf {
   color: #1f6feb;
-  background: rgba(31, 111, 235, 0.1);
-}
-
-.thesis-links a.pdf:hover {
-  background: rgba(31, 111, 235, 0.2);
-  transform: translateY(-2px);
 }
 
 .thesis-links a.slides {
   color: #d97706;
-  background: rgba(217, 119, 6, 0.1);
 }
 
-.thesis-links a.slides:hover {
-  background: rgba(217, 119, 6, 0.2);
-  transform: translateY(-2px);
-}
-
-/* ====== Responsive ====== */
+/* Responsive */
 @media (max-width: 720px) {
   .edu-item {
     grid-template-columns: 150px 1fr;
-  }
-  
-  .edu-item + .edu-item::after {
-    left: calc(150px + 16px + 1.5rem);
   }
 }
 
 @media (max-width: 520px) {
   .edu-item {
     grid-template-columns: 1fr;
-    align-items: start;
   }
-  
   .edu-date {
     text-align: left;
-    margin-bottom: 0.5rem;
-    white-space: normal;
-  }
-  
-  .edu-item + .edu-item::after {
-    left: 1.5rem;
   }
 }
 </style>
 
 <div class="edu-timeline">
-  <!-- Ph.D. -->
+  <!-- PhD -->
   <div class="edu-item">
     <div class="edu-date">Aug 2024 – Present</div>
     <div class="edu-content">
@@ -224,8 +179,8 @@ header:
       </ul>
     </div>
   </div>
-  
-  <!-- B.Sc. -->
+
+  <!-- BSc -->
   <div class="edu-item">
     <div class="edu-date">Mar 2018 – May 2023</div>
     <div class="edu-content">
