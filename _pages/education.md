@@ -24,7 +24,7 @@ header:
   padding: 1.5rem;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 12px;
-  border-left: 5px solid #667eea;
+  border-left: 8px solid #667eea;
   transition: all 0.3s ease;
 }
 
