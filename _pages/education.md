@@ -14,7 +14,6 @@ header:
   padding: 0;
 }
 
-/* Two-column grid */
 .edu-item {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -34,7 +33,7 @@ header:
   border-left-color: #764ba2;
 }
 
-/* ====== PhD (FIRST ITEM) BOX COLOR ====== */
+/* ===== PhD (first item) ===== */
 .edu-item:first-child {
   background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-left-color: #0284c7;
@@ -76,7 +75,6 @@ header:
   -webkit-text-fill-color: transparent;
 }
 
-/* PhD title */
 .edu-item:first-child .edu-content h3 {
   background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
   -webkit-background-clip: text;
@@ -92,18 +90,15 @@ header:
   -webkit-text-fill-color: transparent;
 }
 
-/* PhD university name */
 .edu-item:first-child .edu-content strong:first-of-type {
   background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Text inside PhD box */
-.edu-item:first-child .edu-content,
-.edu-item:first-child .edu-content li,
-.edu-item:first-child .edu-content strong {
-  color: #0f172a;
+.edu-content strong {
+  font-weight: 600;
+  color: #4a5568;
 }
 
 .edu-content ul {
@@ -112,6 +107,7 @@ header:
 
 .edu-content li {
   margin-bottom: 0.4rem;
+  color: #2d3748;
 }
 
 /* Divider */
@@ -131,29 +127,27 @@ header:
   opacity: 0.3;
 }
 
-/* Thesis links — pure black */
-.thesis-links a {
+/* ===== Thesis links — PURE BLACK ===== */
+.thesis-links {
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+.thesis-links a,
+.thesis-links a.pdf,
+.thesis-links a.slides {
   font-weight: 600;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   color: #000000;
   background: transparent;
-  transition: all 0.2s ease;
 }
 
-.thesis-links a:hover {
+.thesis-links a:hover,
+.thesis-links a.pdf:hover,
+.thesis-links a.slides:hover {
   text-decoration: underline;
-}
-
-
-
-.thesis-links a.pdf {
-  color: #1f6feb;
-}
-
-.thesis-links a.slides {
-  color: #d97706;
 }
 
 /* Responsive */
@@ -166,14 +160,19 @@ header:
 @media (max-width: 520px) {
   .edu-item {
     grid-template-columns: 1fr;
+    align-items: start;
   }
+
   .edu-date {
     text-align: left;
+    margin-bottom: 0.5rem;
+    white-space: normal;
   }
 }
 </style>
 
 <div class="edu-timeline">
+
   <!-- PhD -->
   <div class="edu-item">
     <div class="edu-date">Aug 2024 – Present</div>
@@ -220,4 +219,5 @@ header:
       </ul>
     </div>
   </div>
+
 </div>
