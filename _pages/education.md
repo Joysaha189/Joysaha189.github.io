@@ -8,66 +8,10 @@ header:
   overlay: false
 ---
 <style>
-body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: 
-    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 40% 20%, rgba(118, 75, 162, 0.2) 0%, transparent 50%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 60px,
-    rgba(255, 255, 255, 0.03) 60px,
-    rgba(255, 255, 255, 0.03) 120px
-  );
-  pointer-events: none;
-  z-index: 0;
-  animation: backgroundScroll 20s linear infinite;
-}
-
-@keyframes backgroundScroll {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(60px, 60px);
-  }
-}
-
 /* ====== Education Timeline (Left dates, centered alignment, no dot) ====== */
 .edu-timeline {
   margin: 0;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  position: relative;
-  z-index: 1;
-  backdrop-filter: blur(10px);
+  padding: 0;
 }
 
 /* Two-column grid: [date] [content] */
@@ -144,6 +88,22 @@ body::after {
   background-clip: text;
 }
 
+.edu-content strong:first-of-type {
+  font-weight: 700;
+  font-size: 1.05rem;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.edu-item:first-child .edu-content strong:first-of-type {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .edu-content strong {
   font-weight: 600;
   color: #4a5568;
@@ -213,10 +173,6 @@ body::after {
 
 /* ====== Responsive ====== */
 @media (max-width: 720px) {
-  .edu-timeline {
-    padding: 1.5rem;
-  }
-  
   .edu-item {
     grid-template-columns: 150px 1fr;
   }
