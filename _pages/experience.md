@@ -41,11 +41,7 @@ header:
 .exp-item:first-child .exp-date,
 .exp-item:first-child .exp-content h3,
 .exp-item:first-child .exp-content strong:first-of-type,
-.exp-item:first-child .exp-content,
-.exp-item:first-child .exp-content li,
-.exp-item:first-child .exp-content strong,
 .exp-item:first-child .meta {
-  color: #083344;
   background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,11 +56,7 @@ header:
 .exp-item:nth-child(2) .exp-date,
 .exp-item:nth-child(2) .exp-content h3,
 .exp-item:nth-child(2) .exp-content strong:first-of-type,
-.exp-item:nth-child(2) .exp-content,
-.exp-item:nth-child(2) .exp-content li,
-.exp-item:nth-child(2) .exp-content strong,
 .exp-item:nth-child(2) .meta {
-  color: #3c096c;
   background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -79,33 +71,34 @@ header:
 .exp-item:nth-child(3) .exp-date,
 .exp-item:nth-child(3) .exp-content h3,
 .exp-item:nth-child(3) .exp-content strong:first-of-type,
-.exp-item:nth-child(3) .exp-content,
-.exp-item:nth-child(3) .exp-content li,
-.exp-item:nth-child(3) .exp-content strong,
 .exp-item:nth-child(3) .meta {
-  color: #065f46;
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* ====== Fourth Box (Adjunct Lecturer) ===== */
+/* ====== Fourth Box (Adjunct Lecturer) - NEW ORANGE ===== */
 .exp-item:nth-child(4) {
-  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
-  border-left-color: #ec4899;
+  background: linear-gradient(135deg, #fff7ed 0%, #ffe4b5 100%);
+  border-left-color: #f97316;
 }
 
 .exp-item:nth-child(4) .exp-date,
 .exp-item:nth-child(4) .exp-content h3,
 .exp-item:nth-child(4) .exp-content strong:first-of-type,
-.exp-item:nth-child(4) .exp-content,
-.exp-item:nth-child(4) .exp-content li,
-.exp-item:nth-child(4) .exp-content strong,
 .exp-item:nth-child(4) .meta {
-  color: #9d174d;
-  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* ====== General Text ===== */
+.exp-content {
+  color: #2d3748; /* default black for normal text */
+}
+
+.exp-content ul li {
+  color: #2d3748; /* list items default black */
 }
 
 /* DATE */
@@ -117,29 +110,30 @@ header:
   font-size: 0.95rem;
 }
 
-/* CONTENT */
+/* CONTENT TITLE */
 .exp-content h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
   line-height: 1.35;
 }
 
+/* Organization */
 .exp-content strong:first-of-type {
   font-weight: 700;
   font-size: 1.05rem;
 }
 
+/* Department / Meta */
 .exp-content .meta {
   margin: 0.35rem 0 0.1rem 0;
   font-size: 0.95rem;
 }
 
-.exp-content ul {
-  margin: 0.5rem 0 0 1rem;
-}
-
-.exp-content li {
-  margin-bottom: 0.4rem;
+/* Nested Lists (Courses) keep color effect */
+.exp-content li strong {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Divider */
