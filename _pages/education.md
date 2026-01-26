@@ -21,10 +21,11 @@ header:
   align-items: center;
   margin: 0 0 2.25rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #f0f9ff 0%, #bae6fd 100%);
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-radius: 12px;
   border-left: 8px solid #0ea5e9;
   transition: all 0.3s ease;
+  color: #000; /* text black always */
 }
 
 .edu-item:hover {
@@ -33,9 +34,9 @@ header:
   border-left-color: #0284c7;
 }
 
-/* First item (Ph.D.) box color */
+/* First item (Ph.D.) unique color */
 .edu-item:first-child {
-  background: linear-gradient(135deg, #fff7e6 0%, #ffe0b3 100%);
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   border-left-color: #f59e0b;
 }
 
@@ -51,7 +52,7 @@ header:
   padding-right: 4px;
   white-space: nowrap;
   font-size: 0.95rem;
-  color: #000; /* date black */
+  color: #000; /* black date */
 }
 
 /* CONTENT */
@@ -60,24 +61,18 @@ header:
   font-size: 1.15rem;
   line-height: 1.35;
   color: #000; /* degree / thesis name black */
-  background: none !important;
-  -webkit-background-clip: unset !important;
-  -webkit-text-fill-color: unset !important;
 }
 
-/* Remove forcing black from other content */
 .edu-content {
-  color: inherit; /* keep default site color */
+  color: #000; /* all text black to avoid disappearing in dark mode */
 }
 
 .edu-content strong:first-of-type {
-  color: inherit; /* University name default */
   font-weight: 700;
 }
 
 .edu-content strong {
-  font-weight: 600; /* keep bold for emphasis */
-  color: inherit;
+  font-weight: 600;
 }
 
 .edu-content ul {
@@ -86,11 +81,10 @@ header:
 
 .edu-content li {
   margin-bottom: 0.4rem;
-  color: inherit;
 }
 
 .edu-content li a {
-  color: #1f6feb; /* links blue */
+  color: #1f6feb; /* link blue */
   text-decoration: none;
 }
 
@@ -112,11 +106,11 @@ header:
 }
 
 .thesis-links a.pdf {
-  color: #1f6feb; /* blue */
+  color: #059669; /* greenish for PDF */
 }
 
 .thesis-links a.slides {
-  color: #d97706; /* orange */
+  color: #d97706; /* orange for Slides */
 }
 
 .thesis-links a:hover {
