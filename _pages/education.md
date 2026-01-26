@@ -8,13 +8,12 @@ header:
   overlay: false
 ---
 <style>
-/* ====== Education Timeline (Left dates, centered alignment, no dot) ====== */
+/* ====== Education Timeline ====== */
 .edu-timeline {
   margin: 0;
   padding: 0;
 }
 
-/* Two-column grid: [date] [content] */
 .edu-item {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -22,7 +21,7 @@ header:
   align-items: center;
   margin: 0 0 2.25rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #f0f9ff 0%, #bae6fd 100%); /* default color for non-first items */
+  background: linear-gradient(135deg, #f0f9ff 0%, #bae6fd 100%);
   border-radius: 12px;
   border-left: 8px solid #0ea5e9;
   transition: all 0.3s ease;
@@ -44,7 +43,7 @@ header:
   border-left-color: #d97706;
 }
 
-/* DATE (left) */
+/* DATE */
 .edu-date {
   font-weight: 700;
   line-height: 1.4;
@@ -52,40 +51,33 @@ header:
   padding-right: 4px;
   white-space: nowrap;
   font-size: 0.95rem;
-  color: #000000; /* always black */
+  color: #000; /* date black */
 }
 
-.edu-item:first-child .edu-date {
-  color: #000000; /* PhD date black too */
-}
-
-/* CONTENT (right) */
-.edu-content {
-  color: #000000; /* all text inside box black */
-}
-
+/* CONTENT */
 .edu-content h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
   line-height: 1.35;
-  color: #000000; /* project/degree name black */
+  color: #000; /* degree / thesis name black */
   background: none !important;
   -webkit-background-clip: unset !important;
   -webkit-text-fill-color: unset !important;
+}
+
+/* Remove forcing black from other content */
+.edu-content {
+  color: inherit; /* keep default site color */
 }
 
 .edu-content strong:first-of-type {
+  color: inherit; /* University name default */
   font-weight: 700;
-  font-size: 1.05rem;
-  color: #000000; /* first strong (University name) black */
-  background: none !important;
-  -webkit-background-clip: unset !important;
-  -webkit-text-fill-color: unset !important;
 }
 
 .edu-content strong {
-  font-weight: 600;
-  color: #000000; /* other strong text black */
+  font-weight: 600; /* keep bold for emphasis */
+  color: inherit;
 }
 
 .edu-content ul {
@@ -94,11 +86,11 @@ header:
 
 .edu-content li {
   margin-bottom: 0.4rem;
-  color: #000000; /* all list text black */
+  color: inherit;
 }
 
 .edu-content li a {
-  color: #1f6feb; /* keep links blue */
+  color: #1f6feb; /* links blue */
   text-decoration: none;
 }
 
@@ -106,25 +98,7 @@ header:
   text-decoration: underline;
 }
 
-/* Subtle divider between entries */
-.edu-item + .edu-item {
-  position: relative;
-  margin-top: 2rem;
-}
-
-.edu-item + .edu-item::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -1rem;
-  left: calc(180px + 16px + 1.5rem);
-  right: 1.5rem;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #0ea5e9, transparent);
-  opacity: 0.3;
-}
-
-/* ====== Thesis link colors ====== */
+/* Thesis links */
 .thesis-links {
   display: inline-block;
   margin-top: 0.25rem;
@@ -149,12 +123,29 @@ header:
   text-decoration: underline;
 }
 
-/* ====== Responsive ====== */
+/* Divider line */
+.edu-item + .edu-item {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.edu-item + .edu-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -1rem;
+  left: calc(180px + 16px + 1.5rem);
+  right: 1.5rem;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #0ea5e9, transparent);
+  opacity: 0.3;
+}
+
+/* Responsive */
 @media (max-width: 720px) {
   .edu-item {
     grid-template-columns: 150px 1fr;
   }
-  
   .edu-item + .edu-item::after {
     left: calc(150px + 16px + 1.5rem);
   }
@@ -165,13 +156,11 @@ header:
     grid-template-columns: 1fr;
     align-items: start;
   }
-  
   .edu-date {
     text-align: left;
     margin-bottom: 0.5rem;
     white-space: normal;
   }
-  
   .edu-item + .edu-item::after {
     left: 1.5rem;
   }
