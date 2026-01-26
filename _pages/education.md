@@ -33,7 +33,7 @@ header:
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* ====== First item (Ph.D.) new teal gradient ===== */
+/* ====== First item (Ph.D.) teal gradient ===== */
 .edu-item:first-child {
   background: linear-gradient(135deg, #cffafe 0%, #a5f3fc 100%);
   border-left-color: #06b6d4;
@@ -43,39 +43,37 @@ header:
   border-left-color: #0e7490;
 }
 
+/* Gradient text for first box: degree, university, date */
 .edu-item:first-child .edu-date,
 .edu-item:first-child .edu-content h3,
-.edu-item:first-child .edu-content strong:first-of-type,
-.edu-item:first-child .edu-content ul li strong,
-.edu-item:first-child .thesis-links a {
+.edu-item:first-child .edu-content strong:first-of-type {
   background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Second item (B.Sc.) default gradient for highlights */
+/* ====== Second item (B.Sc.) soft blue gradient ===== */
 .edu-item:nth-child(2) {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-  border-left-color: #f59e0b;
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-left-color: #3b82f6;
 }
 
 .edu-item:nth-child(2):hover {
-  border-left-color: #d97706;
+  border-left-color: #1e40af;
 }
 
+/* Gradient text for second box: only degree, university, date */
 .edu-item:nth-child(2) .edu-date,
 .edu-item:nth-child(2) .edu-content h3,
-.edu-item:nth-child(2) .edu-content strong:first-of-type,
-.edu-item:nth-child(2) .edu-content ul li strong,
-.edu-item:nth-child(2) .thesis-links a {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+.edu-item:nth-child(2) .edu-content strong:first-of-type {
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* ====== General Text ===== */
 .edu-content {
-  color: #000; /* normal black text */
+  color: #000; /* all text black */
 }
 
 .edu-content ul {
@@ -106,14 +104,7 @@ header:
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-}
-
-.thesis-links a.pdf {
-  color: inherit; /* gradient applied from parent */
-}
-
-.thesis-links a.slides {
-  color: inherit; /* gradient applied from parent */
+  color: #1f6feb; /* always blue, not gradient */
 }
 
 .thesis-links a:hover {
