@@ -22,38 +22,90 @@ header:
   align-items: center;
   margin: 0 0 2.25rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-radius: 12px;
-  border-left: 8px solid #0ea5e9;
+  border-left: 8px solid transparent;
   transition: all 0.3s ease;
 }
 
 .exp-item:hover {
   transform: translateX(5px);
-  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
-  border-left-color: #0284c7;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* ===== FIRST BOX (Graduate TA) ===== */
+/* ====== First Box (Graduate TA) ===== */
 .exp-item:first-child {
   background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
   border-left-color: #0891b2;
 }
 
-/* Other boxes — unchanged */
+.exp-item:first-child .exp-date,
+.exp-item:first-child .exp-content h3,
+.exp-item:first-child .exp-content strong:first-of-type,
+.exp-item:first-child .exp-content,
+.exp-item:first-child .exp-content li,
+.exp-item:first-child .exp-content strong,
+.exp-item:first-child .meta {
+  color: #083344;
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ====== Second Box (Research Project Assistant) ===== */
 .exp-item:nth-child(2) {
   background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
   border-left-color: #8b5cf6;
 }
 
+.exp-item:nth-child(2) .exp-date,
+.exp-item:nth-child(2) .exp-content h3,
+.exp-item:nth-child(2) .exp-content strong:first-of-type,
+.exp-item:nth-child(2) .exp-content,
+.exp-item:nth-child(2) .exp-content li,
+.exp-item:nth-child(2) .exp-content strong,
+.exp-item:nth-child(2) .meta {
+  color: #3c096c;
+  background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ====== Third Box (Part-Time Lecturer) ===== */
 .exp-item:nth-child(3) {
   background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
   border-left-color: #10b981;
 }
 
+.exp-item:nth-child(3) .exp-date,
+.exp-item:nth-child(3) .exp-content h3,
+.exp-item:nth-child(3) .exp-content strong:first-of-type,
+.exp-item:nth-child(3) .exp-content,
+.exp-item:nth-child(3) .exp-content li,
+.exp-item:nth-child(3) .exp-content strong,
+.exp-item:nth-child(3) .meta {
+  color: #065f46;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ====== Fourth Box (Adjunct Lecturer) ===== */
 .exp-item:nth-child(4) {
   background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
   border-left-color: #ec4899;
+}
+
+.exp-item:nth-child(4) .exp-date,
+.exp-item:nth-child(4) .exp-content h3,
+.exp-item:nth-child(4) .exp-content strong:first-of-type,
+.exp-item:nth-child(4) .exp-content,
+.exp-item:nth-child(4) .exp-content li,
+.exp-item:nth-child(4) .exp-content strong,
+.exp-item:nth-child(4) .meta {
+  color: #9d174d;
+  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* DATE */
@@ -63,63 +115,23 @@ header:
   text-align: right;
   white-space: nowrap;
   font-size: 0.95rem;
-  color: #2d3748;
-}
-
-/* First box date color */
-.exp-item:first-child .exp-date {
-  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* CONTENT */
-.exp-content {
-  color: #2d3748;
-}
-
 .exp-content h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
   line-height: 1.35;
 }
 
-/* First box title */
-.exp-item:first-child .exp-content h3 {
-  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Organization name */
 .exp-content strong:first-of-type {
   font-weight: 700;
   font-size: 1.05rem;
-  color: #1a202c;
-}
-
-/* First box organization */
-.exp-item:first-child .exp-content strong:first-of-type {
-  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* First box text override */
-.exp-item:first-child .exp-content,
-.exp-item:first-child .exp-content li,
-.exp-item:first-child .exp-content strong {
-  color: #083344;
 }
 
 .exp-content .meta {
   margin: 0.35rem 0 0.1rem 0;
   font-size: 0.95rem;
-  color: #4a5568;
-}
-
-.exp-item:first-child .meta {
-  color: #155e75;
 }
 
 .exp-content ul {
