@@ -137,7 +137,17 @@ header:
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
+  color: #059669;                 /* emerald green */
+  background: rgba(5, 150, 105, 0.12);
+  transition: all 0.2s ease;
 }
+
+.thesis-links a:hover {
+  background: rgba(5, 150, 105, 0.22);
+  color: #047857;
+  transform: translateY(-2px);
+}
+
 
 .thesis-links a.pdf {
   color: #1f6feb;
