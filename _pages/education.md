@@ -131,22 +131,21 @@ header:
   opacity: 0.3;
 }
 
-/* Thesis links */
+/* Thesis links — pure black */
 .thesis-links a {
   font-weight: 600;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  color: #059669;                 /* emerald green */
-  background: rgba(5, 150, 105, 0.12);
+  color: #000000;
+  background: transparent;
   transition: all 0.2s ease;
 }
 
 .thesis-links a:hover {
-  background: rgba(5, 150, 105, 0.22);
-  color: #047857;
-  transform: translateY(-2px);
+  text-decoration: underline;
 }
+
 
 
 .thesis-links a.pdf {
