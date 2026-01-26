@@ -40,10 +40,6 @@ header:
   border-left-color: #0891b2;
 }
 
-.exp-item:first-child:hover {
-  border-left-color: #0e7490;
-}
-
 /* Other boxes — unchanged */
 .exp-item:nth-child(2) {
   background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
