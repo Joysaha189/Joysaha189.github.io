@@ -7,6 +7,7 @@ author_profile: true
 header:
   overlay: false
 ---
+
 <style>
 /* ====== Education Timeline ====== */
 .edu-timeline {
@@ -21,58 +22,60 @@ header:
   align-items: center;
   margin: 0 0 2.25rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-radius: 12px;
-  border-left: 8px solid #0ea5e9;
+  border-left: 8px solid transparent;
   transition: all 0.3s ease;
-  color: #000; /* text black always */
+  color: #000; /* default black text */
 }
 
 .edu-item:hover {
   transform: translateX(5px);
-  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
-  border-left-color: #0284c7;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* First item (Ph.D.) unique color */
+/* ====== First item (Ph.D.) new teal gradient ===== */
 .edu-item:first-child {
+  background: linear-gradient(135deg, #cffafe 0%, #a5f3fc 100%);
+  border-left-color: #06b6d4;
+}
+
+.edu-item:first-child:hover {
+  border-left-color: #0e7490;
+}
+
+.edu-item:first-child .edu-date,
+.edu-item:first-child .edu-content h3,
+.edu-item:first-child .edu-content strong:first-of-type,
+.edu-item:first-child .edu-content ul li strong,
+.edu-item:first-child .thesis-links a {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Second item (B.Sc.) default gradient for highlights */
+.edu-item:nth-child(2) {
   background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   border-left-color: #f59e0b;
 }
 
-.edu-item:first-child:hover {
+.edu-item:nth-child(2):hover {
   border-left-color: #d97706;
 }
 
-/* DATE */
-.edu-date {
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: right;
-  padding-right: 4px;
-  white-space: nowrap;
-  font-size: 0.95rem;
-  color: #000; /* black date */
+.edu-item:nth-child(2) .edu-date,
+.edu-item:nth-child(2) .edu-content h3,
+.edu-item:nth-child(2) .edu-content strong:first-of-type,
+.edu-item:nth-child(2) .edu-content ul li strong,
+.edu-item:nth-child(2) .thesis-links a {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* CONTENT */
-.edu-content h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.15rem;
-  line-height: 1.35;
-  color: #000; /* degree / thesis name black */
-}
-
+/* ====== General Text ===== */
 .edu-content {
-  color: #000; /* all text black to avoid disappearing in dark mode */
-}
-
-.edu-content strong:first-of-type {
-  font-weight: 700;
-}
-
-.edu-content strong {
-  font-weight: 600;
+  color: #000; /* normal black text */
 }
 
 .edu-content ul {
@@ -106,11 +109,11 @@ header:
 }
 
 .thesis-links a.pdf {
-  color: #059669; /* greenish for PDF */
+  color: inherit; /* gradient applied from parent */
 }
 
 .thesis-links a.slides {
-  color: #d97706; /* orange for Slides */
+  color: inherit; /* gradient applied from parent */
 }
 
 .thesis-links a:hover {
