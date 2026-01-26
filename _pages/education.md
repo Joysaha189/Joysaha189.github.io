@@ -33,21 +33,21 @@ header:
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* ====== First item (Ph.D.) teal gradient ===== */
+/* ====== First item (Ph.D.) greenish gradient ===== */
 .edu-item:first-child {
-  background: linear-gradient(135deg, #cffafe 0%, #a5f3fc 100%);
-  border-left-color: #06b6d4;
+  background: linear-gradient(135deg, #d1fae5 0%, #6ee7b7 100%);
+  border-left-color: #10b981;
 }
 
 .edu-item:first-child:hover {
-  border-left-color: #0e7490;
+  border-left-color: #059669;
 }
 
 /* Gradient text for first box: degree, university, date */
 .edu-item:first-child .edu-date,
 .edu-item:first-child .edu-content h3,
 .edu-item:first-child .edu-content strong:first-of-type {
-  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -85,7 +85,7 @@ header:
 }
 
 .edu-content li a {
-  color: #1f6feb; /* link blue */
+  color: #1f6feb; /* default link color */
   text-decoration: none;
 }
 
@@ -104,11 +104,25 @@ header:
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  color: #1f6feb; /* always blue, not gradient */
+}
+
+/* PDF and Slides different colors */
+.thesis-links a.pdf {
+  color: #1f6feb; /* blue */
+}
+
+.thesis-links a.slides {
+  color: #d97706; /* orange */
 }
 
 .thesis-links a:hover {
   text-decoration: underline;
+}
+
+/* Bold black for thesis title text */
+.edu-content strong.thesis-title {
+  font-weight: 700;
+  color: #000;
 }
 
 /* Divider line */
@@ -181,7 +195,7 @@ header:
         <li><strong>Major:</strong> Communication and Signal Processing</li>
         <li><strong>GPA:</strong> 3.61 / 4.00</li>
         <li>
-          <strong>Undergraduate Thesis:</strong>
+          <strong class="thesis-title">Undergraduate Thesis:</strong>
           <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
             Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
           </a>
