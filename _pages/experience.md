@@ -9,7 +9,7 @@ header:
 ---
 
 <style>
-/* ====== Experience Timeline (Left dates, two-column grid, subtle divider) ====== */
+/* ====== Experience Timeline (Left dates, two-column grid, colorful boxes) ====== */
 .exp-timeline {
   margin: 0;
   padding: 0;
@@ -21,7 +21,53 @@ header:
   column-gap: 16px;
   align-items: center;
   margin: 0 0 2.25rem 0;
-  color: inherit;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-radius: 12px;
+  border-left: 8px solid #0ea5e9;
+  transition: all 0.3s ease;
+}
+
+.exp-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+  border-left-color: #0284c7;
+}
+
+.exp-item:nth-child(1) {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-left-color: #f59e0b;
+}
+
+.exp-item:nth-child(1):hover {
+  border-left-color: #d97706;
+}
+
+.exp-item:nth-child(2) {
+  background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
+  border-left-color: #8b5cf6;
+}
+
+.exp-item:nth-child(2):hover {
+  border-left-color: #7c3aed;
+}
+
+.exp-item:nth-child(3) {
+  background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+  border-left-color: #10b981;
+}
+
+.exp-item:nth-child(3):hover {
+  border-left-color: #059669;
+}
+
+.exp-item:nth-child(4) {
+  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+  border-left-color: #ec4899;
+}
+
+.exp-item:nth-child(4):hover {
+  border-left-color: #db2777;
 }
 
 .exp-date {
@@ -30,47 +76,155 @@ header:
   text-align: right;
   padding-right: 4px;
   white-space: nowrap;
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+.exp-item:nth-child(1) .exp-date {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(2) .exp-date {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(3) .exp-date {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(4) .exp-date {
+  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-content {
+  color: #2d3748;
 }
 
 .exp-content h3 {
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.exp-item:nth-child(1) .exp-content h3 {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(2) .exp-content h3 {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(3) .exp-content h3 {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(4) .exp-content h3 {
+  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-content strong:first-of-type {
+  font-weight: 700;
   font-size: 1.05rem;
+  color: #1a202c;
+}
+
+.exp-item:nth-child(1) .exp-content strong:first-of-type {
+  background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(2) .exp-content strong:first-of-type {
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(3) .exp-content strong:first-of-type {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.exp-item:nth-child(4) .exp-content strong:first-of-type {
+  background: linear-gradient(135deg, #db2777 0%, #be185d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .exp-content strong {
   font-weight: 600;
+  color: #4a5568;
 }
 
 .exp-content .meta {
   margin: 0.35rem 0 0.1rem 0;
   font-size: 0.95rem;
   opacity: 0.9;
+  color: #4a5568;
 }
 
 .exp-content ul {
   margin: 0.5rem 0 0 1rem;
 }
 
+.exp-content li {
+  margin-bottom: 0.4rem;
+  color: #2d3748;
+}
+
 .exp-item + .exp-item {
   position: relative;
+  margin-top: 2rem;
 }
 
 .exp-item + .exp-item::after {
   content: "";
   display: block;
-  margin-left: calc(180px + 16px);
-  margin-top: 1.5rem;
-  height: 1px;
-  background: currentColor;
-  opacity: 0.12;
+  position: absolute;
+  top: -1rem;
+  left: calc(180px + 16px + 1.5rem);
+  right: 1.5rem;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #0ea5e9, transparent);
+  opacity: 0.3;
 }
 
 @media (max-width: 720px) {
   .exp-item {
     grid-template-columns: 150px 1fr;
   }
+  
   .exp-item + .exp-item::after {
-    margin-left: calc(150px + 16px);
+    left: calc(150px + 16px + 1.5rem);
   }
 }
 
@@ -79,18 +233,18 @@ header:
     grid-template-columns: 1fr;
     align-items: start;
   }
+  
   .exp-date {
     text-align: left;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
     white-space: normal;
   }
+  
   .exp-item + .exp-item::after {
-    margin-left: 0;
+    left: 1.5rem;
   }
 }
 </style>
-
-
 
 <div class="exp-timeline">
 
