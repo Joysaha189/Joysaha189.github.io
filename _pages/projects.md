@@ -10,7 +10,12 @@ header:
 
 <style>
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
   max-width: 1100px;
+  margin: 0 auto;
+  color: #2d3748;
 }
 
 .intro-text {
@@ -35,7 +40,7 @@ body {
   border-left-color: #0284c7;
 }
 
-/* Different colors for each project - using nth-of-type instead of nth-child */
+/* Different colors for each project */
 .project-item:nth-of-type(1) {
   background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   border-left-color: #0ea5e9;
@@ -241,6 +246,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  
   .project-item {
     padding: 1rem;
   }
