@@ -9,21 +9,6 @@ header:
 ---
 
 <style>
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.6;
-  padding: 2rem;
-  max-width: 1100px;
-  margin: 0 auto;
-  color: #2d3748;
-}
-
-.intro-text {
-  margin-bottom: 2rem;
-  color: #4a5568;
-  font-size: 1.05rem;
-}
-
 /* ====== Project items with colored boxes ====== */
 .project-item {
   padding: 1.5rem;
@@ -40,225 +25,181 @@ body {
   border-left-color: #0284c7;
 }
 
-/* Different colors for each project */
-.project-item:nth-of-type(1) {
-  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
-  border-left-color: #0ea5e9;
-}
-
-.project-item:nth-of-type(1):hover {
-  border-left-color: #0284c7;
-  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
-}
-
-.project-item:nth-of-type(2) {
+.project-item:nth-child(2) {
   background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   border-left-color: #f59e0b;
 }
 
-.project-item:nth-of-type(2):hover {
+.project-item:nth-child(2):hover {
   border-left-color: #d97706;
   box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
 }
 
-.project-item:nth-of-type(3) {
+.project-item:nth-child(3) {
   background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
   border-left-color: #8b5cf6;
 }
 
-.project-item:nth-of-type(3):hover {
+.project-item:nth-child(3):hover {
   border-left-color: #7c3aed;
   box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
 }
 
-.project-item:nth-of-type(4) {
+.project-item:nth-child(4) {
   background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
   border-left-color: #10b981;
 }
 
-.project-item:nth-of-type(4):hover {
+.project-item:nth-child(4):hover {
   border-left-color: #059669;
   box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
 }
 
-.project-item:nth-of-type(5) {
+.project-item:nth-child(5) {
   background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
   border-left-color: #ec4899;
 }
 
-.project-item:nth-of-type(5):hover {
+.project-item:nth-child(5):hover {
   border-left-color: #db2777;
   box-shadow: 0 8px 20px rgba(236, 72, 153, 0.3);
 }
 
-.project-item:nth-of-type(6) {
+.project-item:nth-child(6) {
   background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
   border-left-color: #f97316;
 }
 
-.project-item:nth-of-type(6):hover {
+.project-item:nth-child(6):hover {
   border-left-color: #ea580c;
   box-shadow: 0 8px 20px rgba(249, 115, 22, 0.3);
 }
 
-.project-item:nth-of-type(7) {
+.project-item:nth-child(7) {
   background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
   border-left-color: #3b82f6;
 }
 
-.project-item:nth-of-type(7):hover {
+.project-item:nth-child(7):hover {
   border-left-color: #2563eb;
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
 
-.project-item:nth-of-type(8) {
+.project-item:nth-child(8) {
   background: linear-gradient(135deg, #fae8ff 0%, #f5d0fe 100%);
   border-left-color: #d946ef;
 }
 
-.project-item:nth-of-type(8):hover {
+.project-item:nth-child(8):hover {
   border-left-color: #c026d3;
   box-shadow: 0 8px 20px rgba(217, 70, 239, 0.3);
 }
 
-.project-item:nth-of-type(9) {
+.project-item:nth-child(9) {
   background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
   border-left-color: #14b8a6;
 }
 
-.project-item:nth-of-type(9):hover {
+.project-item:nth-child(9):hover {
   border-left-color: #0d9488;
   box-shadow: 0 8px 20px rgba(20, 184, 166, 0.3);
 }
 
-.project-item:nth-of-type(10) {
+.project-item:nth-child(10) {
   background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
   border-left-color: #ef4444;
 }
 
-.project-item:nth-of-type(10):hover {
+.project-item:nth-child(10):hover {
   border-left-color: #dc2626;
   box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
 }
 
-.project-item:nth-of-type(11) {
+.project-item:nth-child(11) {
   background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
   border-left-color: #a78bfa;
 }
 
-.project-item:nth-of-type(11):hover {
+.project-item:nth-child(11):hover {
   border-left-color: #8b5cf6;
   box-shadow: 0 8px 20px rgba(167, 139, 250, 0.3);
 }
 
-.project-item:nth-of-type(12) {
+.project-item:nth-child(12) {
   background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
   border-left-color: #34d399;
 }
 
-.project-item:nth-of-type(12):hover {
+.project-item:nth-child(12):hover {
   border-left-color: #10b981;
   box-shadow: 0 8px 20px rgba(52, 211, 153, 0.3);
+}
+
+.project-item:nth-child(13) {
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+  border-left-color: #fb923c;
+}
+
+.project-item:nth-child(13):hover {
+  border-left-color: #f97316;
+  box-shadow: 0 8px 20px rgba(251, 146, 60, 0.3);
 }
 
 /* ====== Project header line ====== */
 .project-header {
   font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: #1a202c;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
 }
 
 .project-header a.project-link {
-  text-decoration: none;
-  color: #1f6feb;
-  transition: color 0.2s ease;
-}
-
-.project-header a.project-link:hover {
   text-decoration: underline;
-  color: #0969da;
+  /* default hyperlink color */
 }
 
 /* Project links */
-.project-links {
-  display: inline-block;
-  margin-left: 8px;
-}
-
 .project-links a.pdf {
-  color: #1f6feb;
-  font-weight: 600;
+  color: #1f6feb; /* blue */
+  font-weight: 500;
   text-decoration: none;
-  margin-left: 4px;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  background: rgba(31, 111, 235, 0.1);
-  transition: all 0.2s ease;
+  margin-left: 8px;
 }
 
 .project-links a.slides,
 .project-links a.poster {
-  color: #d97706;
-  font-weight: 600;
+  color: #d97706; /* orange */
+  font-weight: 500;
   text-decoration: none;
   margin-left: 4px;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  background: rgba(217, 119, 6, 0.1);
-  transition: all 0.2s ease;
 }
 
-.project-links a.pdf:hover {
-  background: rgba(31, 111, 235, 0.2);
-  transform: translateY(-2px);
-}
-
+.project-links a.pdf:hover,
 .project-links a.slides:hover,
 .project-links a.poster:hover {
-  background: rgba(217, 119, 6, 0.2);
-  transform: translateY(-2px);
+  text-decoration: underline;
 }
 
-/* Separator removed - using colored boxes instead */
+/* Bolder separator line */
 .project-separator {
-  display: none;
+  border-bottom: 2px solid #444; /* thicker line */
+  margin: 0.4rem 0 0.6rem 0;
 }
 
 /* Description spacing */
 .project-desc {
-  margin-top: 0.5rem;
-  color: #2d3748;
-  line-height: 1.6;
+  margin-top: 0.2rem;
 }
 
-/* Keywords styling */
+/* Keywords spacing */
 .project-keywords {
-  margin-top: 0.75rem;
+  margin-top: 0.4rem;
   font-style: italic;
-  color: #4a5568;
-  font-size: 0.95rem;
-}
-
-.project-keywords strong {
-  font-weight: 600;
-  font-style: normal;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
-  
-  .project-item {
-    padding: 1rem;
-  }
 }
 </style>
 
-<p class="intro-text">
+
 Below is a curated list of academic, research, and technical projects spanning machine learning, signal processing, control systems, IoT, and power systems.
-</p>
+
 
 <!-- Project 1 -->
 <div class="project-item">
