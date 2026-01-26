@@ -35,125 +35,125 @@ body {
   border-left-color: #0284c7;
 }
 
-/* Different colors for each project */
-.project-item:nth-child(2) {
+/* Different colors for each project - using nth-of-type instead of nth-child */
+.project-item:nth-of-type(1) {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-left-color: #0ea5e9;
+}
+
+.project-item:nth-of-type(1):hover {
+  border-left-color: #0284c7;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+}
+
+.project-item:nth-of-type(2) {
   background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   border-left-color: #f59e0b;
 }
 
-.project-item:nth-child(2):hover {
+.project-item:nth-of-type(2):hover {
   border-left-color: #d97706;
   box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
 }
 
-.project-item:nth-child(3) {
+.project-item:nth-of-type(3) {
   background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
   border-left-color: #8b5cf6;
 }
 
-.project-item:nth-child(3):hover {
+.project-item:nth-of-type(3):hover {
   border-left-color: #7c3aed;
   box-shadow: 0 8px 20px rgba(139, 92, 246, 0.3);
 }
 
-.project-item:nth-child(4) {
+.project-item:nth-of-type(4) {
   background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
   border-left-color: #10b981;
 }
 
-.project-item:nth-child(4):hover {
+.project-item:nth-of-type(4):hover {
   border-left-color: #059669;
   box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
 }
 
-.project-item:nth-child(5) {
+.project-item:nth-of-type(5) {
   background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
   border-left-color: #ec4899;
 }
 
-.project-item:nth-child(5):hover {
+.project-item:nth-of-type(5):hover {
   border-left-color: #db2777;
   box-shadow: 0 8px 20px rgba(236, 72, 153, 0.3);
 }
 
-.project-item:nth-child(6) {
+.project-item:nth-of-type(6) {
   background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
   border-left-color: #f97316;
 }
 
-.project-item:nth-child(6):hover {
+.project-item:nth-of-type(6):hover {
   border-left-color: #ea580c;
   box-shadow: 0 8px 20px rgba(249, 115, 22, 0.3);
 }
 
-.project-item:nth-child(7) {
+.project-item:nth-of-type(7) {
   background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
   border-left-color: #3b82f6;
 }
 
-.project-item:nth-child(7):hover {
+.project-item:nth-of-type(7):hover {
   border-left-color: #2563eb;
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
 
-.project-item:nth-child(8) {
+.project-item:nth-of-type(8) {
   background: linear-gradient(135deg, #fae8ff 0%, #f5d0fe 100%);
   border-left-color: #d946ef;
 }
 
-.project-item:nth-child(8):hover {
+.project-item:nth-of-type(8):hover {
   border-left-color: #c026d3;
   box-shadow: 0 8px 20px rgba(217, 70, 239, 0.3);
 }
 
-.project-item:nth-child(9) {
+.project-item:nth-of-type(9) {
   background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
   border-left-color: #14b8a6;
 }
 
-.project-item:nth-child(9):hover {
+.project-item:nth-of-type(9):hover {
   border-left-color: #0d9488;
   box-shadow: 0 8px 20px rgba(20, 184, 166, 0.3);
 }
 
-.project-item:nth-child(10) {
+.project-item:nth-of-type(10) {
   background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
   border-left-color: #ef4444;
 }
 
-.project-item:nth-child(10):hover {
+.project-item:nth-of-type(10):hover {
   border-left-color: #dc2626;
   box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
 }
 
-.project-item:nth-child(11) {
+.project-item:nth-of-type(11) {
   background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
   border-left-color: #a78bfa;
 }
 
-.project-item:nth-child(11):hover {
+.project-item:nth-of-type(11):hover {
   border-left-color: #8b5cf6;
   box-shadow: 0 8px 20px rgba(167, 139, 250, 0.3);
 }
 
-.project-item:nth-child(12) {
+.project-item:nth-of-type(12) {
   background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
   border-left-color: #34d399;
 }
 
-.project-item:nth-child(12):hover {
+.project-item:nth-of-type(12):hover {
   border-left-color: #10b981;
   box-shadow: 0 8px 20px rgba(52, 211, 153, 0.3);
-}
-
-.project-item:nth-child(13) {
-  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
-  border-left-color: #fb923c;
-}
-
-.project-item:nth-child(13):hover {
-  border-left-color: #f97316;
-  box-shadow: 0 8px 20px rgba(251, 146, 60, 0.3);
 }
 
 /* ====== Project header line ====== */
