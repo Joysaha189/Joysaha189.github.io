@@ -9,7 +9,7 @@ header:
 ---
 
 <style>
-/* ====== Experience Timeline (Left dates, two-column grid, colorful boxes) ====== */
+/* ====== Experience Timeline ====== */
 .exp-timeline {
   margin: 0;
   padding: 0;
@@ -34,22 +34,20 @@ header:
   border-left-color: #0284c7;
 }
 
-.exp-item:nth-child(1) {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-  border-left-color: #f59e0b;
+/* ===== FIRST BOX (Graduate TA) ===== */
+.exp-item:first-child {
+  background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+  border-left-color: #0891b2;
 }
 
-.exp-item:nth-child(1):hover {
-  border-left-color: #d97706;
+.exp-item:first-child:hover {
+  border-left-color: #0e7490;
 }
 
+/* Other boxes — unchanged */
 .exp-item:nth-child(2) {
   background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
   border-left-color: #8b5cf6;
-}
-
-.exp-item:nth-child(2):hover {
-  border-left-color: #7c3aed;
 }
 
 .exp-item:nth-child(3) {
@@ -57,57 +55,29 @@ header:
   border-left-color: #10b981;
 }
 
-.exp-item:nth-child(3):hover {
-  border-left-color: #059669;
-}
-
 .exp-item:nth-child(4) {
   background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
   border-left-color: #ec4899;
 }
 
-.exp-item:nth-child(4):hover {
-  border-left-color: #db2777;
-}
-
+/* DATE */
 .exp-date {
   font-weight: 700;
   line-height: 1.4;
   text-align: right;
-  padding-right: 4px;
   white-space: nowrap;
-  color: #2d3748;
   font-size: 0.95rem;
+  color: #2d3748;
 }
 
-.exp-item:nth-child(1) .exp-date {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+/* First box date color */
+.exp-item:first-child .exp-date {
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
-.exp-item:nth-child(2) .exp-date {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(3) .exp-date {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(4) .exp-date {
-  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
+/* CONTENT */
 .exp-content {
   color: #2d3748;
 }
@@ -118,78 +88,42 @@ header:
   line-height: 1.35;
 }
 
-.exp-item:nth-child(1) .exp-content h3 {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+/* First box title */
+.exp-item:first-child .exp-content h3 {
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
-.exp-item:nth-child(2) .exp-content h3 {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(3) .exp-content h3 {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(4) .exp-content h3 {
-  background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
+/* Organization name */
 .exp-content strong:first-of-type {
   font-weight: 700;
   font-size: 1.05rem;
   color: #1a202c;
 }
 
-.exp-item:nth-child(1) .exp-content strong:first-of-type {
-  background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+/* First box organization */
+.exp-item:first-child .exp-content strong:first-of-type {
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
-.exp-item:nth-child(2) .exp-content strong:first-of-type {
-  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(3) .exp-content strong:first-of-type {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-item:nth-child(4) .exp-content strong:first-of-type {
-  background: linear-gradient(135deg, #db2777 0%, #be185d 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.exp-content strong {
-  font-weight: 600;
-  color: #4a5568;
+/* First box text override */
+.exp-item:first-child .exp-content,
+.exp-item:first-child .exp-content li,
+.exp-item:first-child .exp-content strong {
+  color: #083344;
 }
 
 .exp-content .meta {
   margin: 0.35rem 0 0.1rem 0;
   font-size: 0.95rem;
-  opacity: 0.9;
   color: #4a5568;
+}
+
+.exp-item:first-child .meta {
+  color: #155e75;
 }
 
 .exp-content ul {
@@ -198,9 +132,9 @@ header:
 
 .exp-content li {
   margin-bottom: 0.4rem;
-  color: #2d3748;
 }
 
+/* Divider */
 .exp-item + .exp-item {
   position: relative;
   margin-top: 2rem;
@@ -208,7 +142,6 @@ header:
 
 .exp-item + .exp-item::after {
   content: "";
-  display: block;
   position: absolute;
   top: -1rem;
   left: calc(180px + 16px + 1.5rem);
@@ -218,13 +151,10 @@ header:
   opacity: 0.3;
 }
 
+/* Responsive */
 @media (max-width: 720px) {
   .exp-item {
     grid-template-columns: 150px 1fr;
-  }
-  
-  .exp-item + .exp-item::after {
-    left: calc(150px + 16px + 1.5rem);
   }
 }
 
@@ -233,15 +163,11 @@ header:
     grid-template-columns: 1fr;
     align-items: start;
   }
-  
+
   .exp-date {
     text-align: left;
     margin-bottom: 0.5rem;
     white-space: normal;
-  }
-  
-  .exp-item + .exp-item::after {
-    left: 1.5rem;
   }
 }
 </style>
@@ -285,7 +211,7 @@ header:
       <div class="meta">Department of Electrical and Computer Engineering</div>
       <ul>
         <li>
-          Developed a sequential, instance‑specific feature acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. Evaluated on nine public datasets; extended toward a journal paper with initial results submitted to ICASSP 2026.
+          Developed a sequential, instance-specific feature acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. Evaluated on nine public datasets; extended toward a journal paper with initial results submitted to ICASSP 2026.
         </li>
       </ul>
     </div>
@@ -295,7 +221,7 @@ header:
   <div class="exp-item">
     <div class="exp-date">Jan 2024 – Aug 2024</div>
     <div class="exp-content">
-      <h3>Part‑Time Lecturer</h3>
+      <h3>Part-Time Lecturer</h3>
       <strong>Presidency University</strong> — Dhaka, Bangladesh
       <div class="meta">Department of Electrical and Electronic Engineering</div>
       <ul>
@@ -304,9 +230,9 @@ header:
         </li>
         <li><strong>Courses Taught:</strong>
           <ul>
-            <li>CSE‑207 / EE‑205 — Digital Electronics</li>
-            <li>CSE‑208 / EE‑206 — Digital Electronics Laboratory (Spring &amp; Summer 2024)</li>
-            <li>EE‑211 / EEE‑311 — Numerical Methods (Spring &amp; Summer 2024)</li>
+            <li>CSE-207 / EE-205 — Digital Electronics</li>
+            <li>CSE-208 / EE-206 — Digital Electronics Laboratory (Spring &amp; Summer 2024)</li>
+            <li>EE-211 / EEE-311 — Numerical Methods (Spring &amp; Summer 2024)</li>
           </ul>
         </li>
       </ul>
