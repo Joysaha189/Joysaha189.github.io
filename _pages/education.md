@@ -118,6 +118,15 @@ header:
   color: #2d3748;
 }
 
+.edu-content li a {
+  color: #1f6feb;
+  text-decoration: none;
+}
+
+.edu-content li a:hover {
+  text-decoration: underline;
+}
+
 /* Subtle divider between entries */
 .edu-item + .edu-item {
   position: relative;
