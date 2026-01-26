@@ -46,7 +46,7 @@ header:
 /* Gradient text for first box: degree, university, date */
 .edu-item:first-child .edu-date,
 .edu-item:first-child .edu-content h3,
-.edu-item:first-child .edu-content strong:first-of-type {
+.edu-item:first-child .edu-content strong.grad {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,7 +65,7 @@ header:
 /* Gradient text for second box: only degree, university, date */
 .edu-item:nth-child(2) .edu-date,
 .edu-item:nth-child(2) .edu-content h3,
-.edu-item:nth-child(2) .edu-content strong:first-of-type {
+.edu-item:nth-child(2) .edu-content strong.grad {
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -84,45 +84,34 @@ header:
   margin-bottom: 0.4rem;
 }
 
-.edu-content li a {
-  color: #1f6feb; /* default link color */
-  text-decoration: none;
+/* Bold black for all labels (Major, GPA, Advisor, Research, Honors, Undergraduate Thesis) */
+.edu-content li strong {
+  font-weight: 700;
+  color: #000;
 }
 
-.edu-content li a:hover {
-  text-decoration: underline;
-}
-
-/* Thesis links */
-.thesis-links {
-  display: inline-block;
-  margin-top: 0.25rem;
-}
-
-.thesis-links a {
+/* Thesis name link in black and underlined */
+.edu-content strong.thesis-title + a {
   font-weight: 600;
-  text-decoration: none;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  color: #000;
+  text-decoration: underline;
+  margin-left: 0.25rem;
 }
 
-/* PDF and Slides different colors */
+/* PDF and Slides links keep original colors */
 .thesis-links a.pdf {
   color: #1f6feb; /* blue */
+  text-decoration: none;
 }
 
 .thesis-links a.slides {
   color: #d97706; /* orange */
+  text-decoration: none;
 }
 
-.thesis-links a:hover {
+.thesis-links a.pdf:hover,
+.thesis-links a.slides:hover {
   text-decoration: underline;
-}
-
-/* Bold black for thesis title text */
-.edu-content strong.thesis-title {
-  font-weight: 700;
-  color: #000;
 }
 
 /* Divider line */
@@ -175,7 +164,7 @@ header:
     <div class="edu-date">Aug 2024 – Present</div>
     <div class="edu-content">
       <h3>Ph.D. in Electrical and Computer Engineering</h3>
-      <strong>University at Albany, SUNY</strong>
+      <strong class="grad">University at Albany, SUNY</strong>
       <ul>
         <li><strong>Major:</strong> Signal Processing and Communications</li>
         <li><strong>GPA:</strong> 4.00 / 4.00</li>
@@ -190,13 +179,13 @@ header:
     <div class="edu-date">Mar 2018 – May 2023</div>
     <div class="edu-content">
       <h3>B.Sc. in Electrical and Electronic Engineering</h3>
-      <strong>Bangladesh University of Engineering and Technology (BUET)</strong>
+      <strong class="grad">Bangladesh University of Engineering and Technology (BUET)</strong>
       <ul>
         <li><strong>Major:</strong> Communication and Signal Processing</li>
         <li><strong>GPA:</strong> 3.61 / 4.00</li>
         <li>
           <strong class="thesis-title">Undergraduate Thesis:</strong>
-          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data">
+          <a href="https://github.com/Joysaha189/Implementation-Friendly-CNN-For-Sign-Language-Recognition-Using-Wi-Fi-CSI-Data" target="_blank" rel="noopener">
             Implementation-Friendly Convolutional Neural Network for Sign Language Recognition Using WiFi CSI Data
           </a>
           <span class="thesis-links">
