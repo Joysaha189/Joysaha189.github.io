@@ -232,7 +232,7 @@ header:
         </li>
         <li><strong>Courses Taught:</strong>
           <ul>
-            <li>CSE-207 / EE-205 — Digital Electronics</li>
+            <li>CSE-207 / EE-205 — Digital Electronics (Spring &amp; Summer 2024)</li>
             <li>CSE-208 / EE-206 — Digital Electronics Laboratory (Spring &amp; Summer 2024)</li>
             <li>EE-211 / EEE-311 — Numerical Methods (Spring &amp; Summer 2024)</li>
           </ul>
