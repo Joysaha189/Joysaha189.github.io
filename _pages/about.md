@@ -30,7 +30,9 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 ---
 
 ## News
-
+- **05/2026** — Passed the **Doctoral Qualifying Examination (DQE)** at the **University at Albany (SUNY)**.
+- **05/2026** — Awarded the **CNSE Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of ECE** for the second consecutive year.
+- **02/2026** — Paper submitted to the **European Signal Processing Conference (EUSIPCO 2026)**.
 - **01/2026** — Paper *“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”* rejected from **ICASSP 2026** with minor reviewer feedback.
 - **09/2025** — Paper submitted to **ICASSP 2026**.
 - **03/2025** — Awarded the **College of Nanotechnology, Science, and Engineering (CNSE) Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering (ECE)**.
