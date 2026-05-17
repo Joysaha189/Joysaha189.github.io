@@ -29,7 +29,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
 ---
 
-
+```html
 <div class="news-scroll">
 
 ## News
@@ -46,7 +46,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
 
 </div>
-
+```
 
 
 
