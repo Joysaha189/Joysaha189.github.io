@@ -28,6 +28,8 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - Resource-aware and adaptive machine learning  
 
 ---
+```html
+<div style="max-height: 320px; overflow-y: auto; padding-right: 10px;">
 
 ## News
 - **05/2026** — Passed the **Doctoral Qualifying Examination (DQE)** at the **University at Albany (SUNY)**.
@@ -41,4 +43,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - **02/2024** — Appointed **Adjunct Lecturer** in the **Department of Textile Machinery Design and Maintenance (TMDM)** at **Bangladesh University of Textiles (BUTEX)**.
 - **01/2024** — Appointed **Part-Time Lecturer** in the **Department of Electrical and Electronic Engineering** at **Presidency University**, Dhaka.
 - **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
+
+</div>
+```
 
