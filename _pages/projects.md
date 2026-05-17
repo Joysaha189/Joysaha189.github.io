@@ -136,6 +136,16 @@ header:
   box-shadow: 0 8px 20px rgba(52, 211, 153, 0.3);
 }
 
+.project-item:nth-child(13) {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border-left-color: #0ea5e9;
+}
+
+.project-item:nth-child(13):hover {
+  border-left-color: #0284c7;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+}
+
 /* ====== Project header ====== */
 .project-header {
   font-size: 1.1rem;
@@ -216,23 +226,7 @@ header:
 <!-- Project 2 -->
 <div class="project-item">
   <div class="project-header">
-    2. <a class="project-link" href="https://github.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
-    <span class="project-links">
-      [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/CSI_536_Final_Project_Report.pdf" target="_blank" rel="noopener">Report</a>]
-      [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/Final_Presentation.pptx" target="_blank" rel="noopener">Slides</a>]
-    </span>
-  </div>
-  <div class="project-separator"></div>
-  <p class="project-desc">
-    Conducted systematic experiments to analyze how architectural choices influence model performance, convergence behavior, and generalization.
-  </p>
-  <p class="project-keywords"><strong>Keywords:</strong> Deep Learning, Neural Network Design</p>
-</div>
-
-<!-- Project 3 -->
-<div class="project-item">
-  <div class="project-header">
-    3. <a class="project-link" href="https://github.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
+    2. <a class="project-link" href="https://github.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition" target="_blank" rel="noopener">Comparative Analysis of AdaHessian and First-Order Optimizers for CSI-Based Sign Language Recognition</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Project%20Report-Joy.pdf" target="_blank" rel="noopener">Report</a>]
       [<a class="poster" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Comparative-Analysis-of-Ada-Hessian-and-1st-Order-Optimizers-for-CSI-Based-Sign-Language-Recognition/main/Deliverables/Joy_Showcase_poster.pdf" target="_blank" rel="noopener">Poster</a>]
@@ -245,10 +239,41 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Optimization, Deep Learning</p>
 </div>
 
+<!-- Project 3 -->
+<div class="project-item">
+  <div class="project-header">
+    3. <a class="project-link" href="https://github.com/Joysaha189/Bayesian-Hypothesis-Testing-seeclickfix" target="_blank" rel="noopener">Bayesian Hypothesis Testing on SeeClickFix Service Requests</a>
+    <span class="project-links">
+      [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Bayesian-Hypothesis-Testing-seeclickfix/main/Report/IECE_672_Project_Report.pdf" target="_blank" rel="noopener">Report</a>]
+    </span>
+  </div>
+  <div class="project-separator"></div>
+  <p class="project-desc">
+    Designed Bayes-optimal binary and multi-hypothesis tests to classify citizen 311 service requests using multi-variate Bernoulli and multinomial likelihood models, with ROC analysis and cost-sensitive thresholding.
+  </p>
+  <p class="project-keywords"><strong>Keywords:</strong> Statistical Inference, Bayesian Classification, Text Classification</p>
+</div>
+
 <!-- Project 4 -->
 <div class="project-item">
   <div class="project-header">
-    4. <a class="project-link" href="https://github.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
+    4. <a class="project-link" href="https://github.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions" target="_blank" rel="noopener">Neural Networks: Investigating Effects of Layer Depth, Neuron Count, and Activation Functions</a>
+    <span class="project-links">
+      [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/CSI_536_Final_Project_Report.pdf" target="_blank" rel="noopener">Report</a>]
+      [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Neural-Networks-Investigating-Effects-of-Layer-Depth-Neuron-Count-and-Activation-Functions/main/Deliverables/Final_Presentation.pptx" target="_blank" rel="noopener">Slides</a>]
+    </span>
+  </div>
+  <div class="project-separator"></div>
+  <p class="project-desc">
+    Conducted systematic experiments to analyze how architectural choices influence model performance, convergence behavior, and generalization.
+  </p>
+  <p class="project-keywords"><strong>Keywords:</strong> Deep Learning, Neural Network Design</p>
+</div>
+
+<!-- Project 5 -->
+<div class="project-item">
+  <div class="project-header">
+    5. <a class="project-link" href="https://github.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation" target="_blank" rel="noopener">Social Distance Monitoring in COVID-19 Situation</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Report.pdf" target="_blank" rel="noopener">Report</a>]
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Social-Distance-Monitoring-in-Covid19-Situation/main/Files/EEE-312%20Project%20Presentation.pptx" target="_blank" rel="noopener">Slides</a>]
@@ -261,10 +286,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Computer Vision, Public Health</p>
 </div>
 
-<!-- Project 5 -->
+<!-- Project 6 -->
 <div class="project-item">
   <div class="project-header">
-    5. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
+    6. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System" target="_blank" rel="noopener">IoT-Based Remote Heart Rate Monitoring System</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Report.pdf" target="_blank" rel="noopener">Report</a>]
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Remote-Heart-Rate-Monitoring-System/main/Files/Project%20Presentation.pdf" target="_blank" rel="noopener">Slides</a>]
@@ -277,10 +302,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> IoT, Biomedical Signal Processing</p>
 </div>
 
-<!-- Project 6 -->
+<!-- Project 7 -->
 <div class="project-item">
   <div class="project-header">
-    6. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Environment-Monitor-System" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
+    7. <a class="project-link" href="https://github.com/Joysaha189/IoT-Based-Environment-Monitor-System" target="_blank" rel="noopener">IoT-Based Environment Monitoring System</a>
     <span class="project-links">
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Based-Environment-Monitor-System/main/Project%20Presentation.pdf" target="_blank" rel="noopener">Slides</a>]
     </span>
@@ -292,10 +317,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> IoT, Sensors</p>
 </div>
 
-<!-- Project 7 -->
+<!-- Project 8 -->
 <div class="project-item">
   <div class="project-header">
-    7. <a class="project-link" href="https://github.com/Joysaha189/Password-Based-Door-Lock-System" target="_blank" rel="noopener">Password-Based Door Lock System</a>
+    8. <a class="project-link" href="https://github.com/Joysaha189/Password-Based-Door-Lock-System" target="_blank" rel="noopener">Password-Based Door Lock System</a>
     <span class="project-links">
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Password-Based-Door-Lock-System/main/EEE%20304-%20Project%20Presentation.pdf" target="_blank" rel="noopener">Slides</a>]
     </span>
@@ -307,10 +332,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Embedded Systems, Security</p>
 </div>
 
-<!-- Project 8 -->
+<!-- Project 9 -->
 <div class="project-item">
   <div class="project-header">
-    8. <a class="project-link" href="https://github.com/Joysaha189/TDM-PCM-System-Development-in-Proteus" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
+    9. <a class="project-link" href="https://github.com/Joysaha189/TDM-PCM-System-Development-in-Proteus" target="_blank" rel="noopener">TDM-PCM System Development in Proteus</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/EEE-310-project-report-group-13.pdf" target="_blank" rel="noopener">Report</a>]
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/TDM-PCM-System-Development-in-Proteus/main/Deliverables/eee-310-project-presentation.pptx" target="_blank" rel="noopener">Slides</a>]
@@ -323,10 +348,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Digital Communication, Simulation</p>
 </div>
 
-<!-- Project 9 -->
+<!-- Project 10 -->
 <div class="project-item">
   <div class="project-header">
-    9. <a class="project-link" href="https://github.com/Joysaha189/Elevator-With-3-Floors" target="_blank" rel="noopener">Elevator With 3 Floors</a>
+    10. <a class="project-link" href="https://github.com/Joysaha189/Elevator-With-3-Floors" target="_blank" rel="noopener">Elevator With 3 Floors</a>
     <span class="project-links">
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Elevator-With-3-Floors/main/Files/Group08_EEE318_Project_Presentation.pptx" target="_blank" rel="noopener">Slides</a>]
     </span>
@@ -338,10 +363,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Digital Systems, Logic Design</p>
 </div>
 
-<!-- Project 10 -->
+<!-- Project 11 -->
 <div class="project-item">
   <div class="project-header">
-    10. <a class="project-link" href="https://github.com/Joysaha189/Heart-Rate-Monitor" target="_blank" rel="noopener">Heart Rate Monitor</a>
+    11. <a class="project-link" href="https://github.com/Joysaha189/Heart-Rate-Monitor" target="_blank" rel="noopener">Heart Rate Monitor</a>
     <span class="project-links">
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Heart-Rate-Monitor/main/Files/Project_Presentation.pdf" target="_blank" rel="noopener">Slides</a>]
     </span>
@@ -353,10 +378,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Biomedical, Embedded Systems</p>
 </div>
 
-<!-- Project 11 -->
+<!-- Project 12 -->
 <div class="project-item">
   <div class="project-header">
-    11. <a class="project-link" href="https://github.com/Joysaha189/Adaptive-Signal-Processing" target="_blank" rel="noopener">Adaptive Signal Processing</a>
+    12. <a class="project-link" href="https://github.com/Joysaha189/Adaptive-Signal-Processing" target="_blank" rel="noopener">Adaptive Signal Processing</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/Adaptive-Signal-Processing/main/Files/Project_Report.pdf" target="_blank" rel="noopener">Report</a>]
     </span>
@@ -368,10 +393,10 @@ header:
   <p class="project-keywords"><strong>Keywords:</strong> Signal Processing, Adaptive Filters</p>
 </div>
 
-<!-- Project 12 -->
+<!-- Project 13 -->
 <div class="project-item">
   <div class="project-header">
-    12. <a class="project-link" href="https://github.com/Joysaha189/IoT-Smart-Home-System" target="_blank" rel="noopener">IoT Smart Home System</a>
+    13. <a class="project-link" href="https://github.com/Joysaha189/IoT-Smart-Home-System" target="_blank" rel="noopener">IoT Smart Home System</a>
     <span class="project-links">
       [<a class="pdf" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Smart-Home-System/main/Files/Project_Report.pdf" target="_blank" rel="noopener">Report</a>]
       [<a class="slides" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joysaha189/IoT-Smart-Home-System/main/Files/Project_Presentation.pdf" target="_blank" rel="noopener">Slides</a>]
