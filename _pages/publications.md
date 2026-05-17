@@ -1,4 +1,4 @@
-```md
+
 ---
 layout: archive
 title: "Publications"
@@ -30,4 +30,4 @@ Published in Taylor & Francis.
 
 Accepted at the *2026 34th European Signal Processing Conference (EUSIPCO)*, Bruges, Belgium, 2026.  
 (Under publication)
-```
+
