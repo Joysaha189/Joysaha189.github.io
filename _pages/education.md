@@ -46,7 +46,8 @@ header:
 /* Gradient text for first box: degree, university, date */
 .edu-item:first-child .edu-date,
 .edu-item:first-child .edu-content h3,
-.edu-item:first-child .edu-content strong.grad {
+.edu-item:first-child .edu-content strong.grad,
+.edu-item:first-child .edu-content strong.coursework-title {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,7 +66,8 @@ header:
 /* Gradient text for second box: only degree, university, date */
 .edu-item:nth-child(2) .edu-date,
 .edu-item:nth-child(2) .edu-content h3,
-.edu-item:nth-child(2) .edu-content strong.grad {
+.edu-item:nth-child(2) .edu-content strong.grad,
+.edu-item:nth-child(2) .edu-content strong.coursework-title {
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,6 +116,33 @@ header:
   text-decoration: underline;
 }
 
+/* ====== Coursework Section ===== */
+.coursework {
+  margin-top: 0.75rem;
+}
+
+.coursework-title {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.coursework-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.25rem;
+  row-gap: 0.3rem;
+  margin: 0;
+  padding-left: 1rem;
+  list-style: disc;
+}
+
+.coursework-grid li {
+  margin-bottom: 0.25rem;
+  color: #000;
+}
+
 /* Divider line */
 .edu-item + .edu-item {
   position: relative;
@@ -155,6 +184,9 @@ header:
   .edu-item + .edu-item::after {
     left: 1.5rem;
   }
+  .coursework-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -171,6 +203,17 @@ header:
         <li><strong>Research Focus:</strong> Dynamic feature grouping; costly feature acquisition</li>
         <li><strong>Advisor:</strong> Prof. Daphney-Stavourla Zois</li>
       </ul>
+      <div class="coursework">
+        <strong class="coursework-title">Relevant Coursework</strong>
+        <ul class="coursework-grid">
+          <li>Course Name 1</li>
+          <li>Course Name 2</li>
+          <li>Course Name 3</li>
+          <li>Course Name 4</li>
+          <li>Course Name 5</li>
+          <li>Course Name 6</li>
+        </ul>
+      </div>
     </div>
   </div>
   
@@ -199,6 +242,19 @@ header:
         </li>
         <li><strong>Honors:</strong> Dean's List (2022)</li>
       </ul>
+      <div class="coursework">
+        <strong class="coursework-title">Relevant Coursework</strong>
+        <ul class="coursework-grid">
+          <li>Course Name 1</li>
+          <li>Course Name 2</li>
+          <li>Course Name 3</li>
+          <li>Course Name 4</li>
+          <li>Course Name 5</li>
+          <li>Course Name 6</li>
+          <li>Course Name 7</li>
+          <li>Course Name 8</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
