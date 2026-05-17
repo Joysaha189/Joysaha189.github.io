@@ -28,8 +28,9 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - Resource-aware and adaptive machine learning  
 
 ---
-```html
-<div style="max-height: 320px; overflow-y: auto; padding-right: 10px;">
+
+
+<div style="height: 320px; overflow-y: scroll; overflow-x: hidden; padding-right: 10px;">
 
 ## News
 - **05/2026** — Passed the **Doctoral Qualifying Examination (DQE)** at the **University at Albany (SUNY)**.
@@ -45,5 +46,5 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
 
 </div>
-```
+
 
