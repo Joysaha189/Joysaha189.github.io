@@ -30,10 +30,10 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 ---
 
 
+<h2>News</h2>
 
 <div class="news-scroll">
 
-<h2>News</h2>
 
 <ul>
 
