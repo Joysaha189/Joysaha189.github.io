@@ -206,12 +206,12 @@ header:
       <div class="coursework">
         <strong class="coursework-title">Relevant Coursework</strong>
         <ul class="coursework-grid">
-          <li>Course Name 1</li>
-          <li>Course Name 2</li>
-          <li>Course Name 3</li>
-          <li>Course Name 4</li>
-          <li>Course Name 5</li>
-          <li>Course Name 6</li>
+          <li>Probablity and Random Proess</li>
+          <li>Optimization Methods and Non-linear Programming 2</li>
+          <li>Probabilistic Machine Learning</li>
+          <li>Deep Learning</li>
+          <li> Introduction to Statistical Inference</li>
+          <li>Algorithms and Data Structures</li>
         </ul>
       </div>
     </div>
@@ -245,14 +245,14 @@ header:
       <div class="coursework">
         <strong class="coursework-title">Relevant Coursework</strong>
         <ul class="coursework-grid">
-          <li>Course Name 1</li>
-          <li>Course Name 2</li>
-          <li>Course Name 3</li>
-          <li>Course Name 4</li>
-          <li>Course Name 5</li>
-          <li>Course Name 6</li>
-          <li>Course Name 7</li>
-          <li>Course Name 8</li>
+          <li> Calculus I & II</li>
+          <li>Probability and Statistics 2</li>
+          <li>Linear Algebra</li>
+          <li> Signal and Systems</li>
+          <li> Digital Signal Processing</li>
+          <li>Control Systems</li>
+          <li> Random Signal and Processes</li>
+          <li>Biomedical Signals Instruments and Measurements</li>
         </ul>
       </div>
     </div>
