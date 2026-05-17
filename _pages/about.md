@@ -41,8 +41,6 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
   <li><strong>05/2026</strong> — Passed the <strong>Doctoral Qualifying Examination (DQE)</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
 
-  <li><strong>05/2026</strong> — Passed the <strong>Doctoral Qualifying Examination (DQE)</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
-
   <li><strong>05/2026</strong> — Awarded the <strong>CNSE Excellence in Teaching Award</strong> for outstanding performance as a <strong>Teaching Assistant</strong> in the <strong>Department of ECE</strong> for the second consecutive year.</li>
 
   <li><strong>02/2026</strong> — Paper submitted to the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>.</li>
