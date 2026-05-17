@@ -206,6 +206,7 @@ header:
   <div class="exp-item">
     <div class="exp-date"> May 2025 – Augu 2025<br/>
       May 2026 – Present<br>
+      <div>
     <div class="exp-content">
       <h3>Research Project Assistant</h3>
       <strong>The Research Foundation for SUNY</strong> — NY, United States
