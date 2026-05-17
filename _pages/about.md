@@ -36,6 +36,11 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 <h2>News</h2>
 
 <ul>
+
+  <li><strong>05/2026</strong> — Paper <em>“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”</em> accepted at the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>. Looking forward to presenting the work in <strong>Bruges, Belgium</strong>.</li>
+
+  <li><strong>05/2026</strong> — Passed the <strong>Doctoral Qualifying Examination (DQE)</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
+
   <li><strong>05/2026</strong> — Passed the <strong>Doctoral Qualifying Examination (DQE)</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
 
   <li><strong>05/2026</strong> — Awarded the <strong>CNSE Excellence in Teaching Award</strong> for outstanding performance as a <strong>Teaching Assistant</strong> in the <strong>Department of ECE</strong> for the second consecutive year.</li>
@@ -60,7 +65,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 </ul>
 
 </div>
-```
+
 
 
 
