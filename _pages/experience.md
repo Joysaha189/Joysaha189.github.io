@@ -180,7 +180,7 @@ header:
   <div class="exp-item">
     <div class="exp-date">
       Aug 2024 – May 2025<br/>
-      Aug 2025 – Present
+      Aug 2025 – May 2026<br>
     </div>
     <div class="exp-content">
       <h3>Graduate Teaching Assistant</h3>
@@ -194,7 +194,6 @@ header:
             <li>IECE 371 — Signals and Systems (Fall 2024)</li>
             <li>IECE 300 — Introduction to Electronics (Fall 2024)</li>
             <li>IECE 442 — System Analysis and Design (Spring 2025)</li>
-            <li>IECE 490/1 — Electrical System Design (Fall 2025)</li>
             <li>IECE 310 — Engineering Electromagnetics (Spring 2025, 2026)</li>
             <li>IECE 490/1 — Electrical System Design (Fall 2025, Spring 2026)</li>
           </ul>
@@ -205,7 +204,8 @@ header:
 
   <!-- Research Project Assistant -->
   <div class="exp-item">
-    <div class="exp-date">May 2025 – Aug 2025</div>
+    <div class="exp-date"> May 2025 – Augu 2025<br/>
+      May 2026 – Present<br>
     <div class="exp-content">
       <h3>Research Project Assistant</h3>
       <strong>The Research Foundation for SUNY</strong> — NY, United States
