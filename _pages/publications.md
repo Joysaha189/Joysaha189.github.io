@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -10,15 +10,13 @@ For a complete and updated list of publications, please refer to my
 
 ---
 
-## Publications
 
 ### Book Chapter
 
 **A Novel Technique for Classification of Motor Imagery EEG Signal Based on Deep Learning Approaches**  
 Lamia Hossain, Ilma Hossain, Taslim Uddin Raju, Md. Shahidul Salim, **Joy Saha**  
 
-Published in Taylor & Francis.  
-<a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032659770-5/novel-technique-classification-motor-imagery-eeg-signal-based-deep-learning-approaches-lamia-hossain-ilma-hossain-taslim-uddin-raju-md-shahidul-salim-joy-saha" target="_blank">[Link]</a>
+Published in Taylor & Francis.  <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781032659770-5/novel-technique-classification-motor-imagery-eeg-signal-based-deep-learning-approaches-lamia-hossain-ilma-hossain-taslim-uddin-raju-md-shahidul-salim-joy-saha" target="_blank">[Link]</a>
 
 ---
 
