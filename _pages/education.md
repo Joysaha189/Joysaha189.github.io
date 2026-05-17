@@ -207,7 +207,7 @@ header:
         <strong class="coursework-title">Relevant Coursework</strong>
         <ul class="coursework-grid">
           <li>Probablity and Random Proess</li>
-          <li>Optimization Methods and Non-linear Programming 2</li>
+          <li>Optimization Methods and Non-linear Programming</li>
           <li>Probabilistic Machine Learning</li>
           <li>Deep Learning</li>
           <li> Introduction to Statistical Inference</li>
@@ -246,7 +246,7 @@ header:
         <strong class="coursework-title">Relevant Coursework</strong>
         <ul class="coursework-grid">
           <li> Calculus I & II</li>
-          <li>Probability and Statistics 2</li>
+          <li>Probability and Statistics</li>
           <li>Linear Algebra</li>
           <li> Signal and Systems</li>
           <li> Digital Signal Processing</li>
