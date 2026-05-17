@@ -30,22 +30,37 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 ---
 
 
+
 <div class="news-scroll">
 
-## News
-- **05/2026** — Passed the **Doctoral Qualifying Examination (DQE)** at the **University at Albany (SUNY)**.
-- **05/2026** — Awarded the **CNSE Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of ECE** for the second consecutive year.
-- **02/2026** — Paper submitted to the **European Signal Processing Conference (EUSIPCO 2026)**.
-- **01/2026** — Paper *“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”* rejected from **ICASSP 2026** with minor reviewer feedback.
-- **09/2025** — Paper submitted to **ICASSP 2026**.
-- **03/2025** — Awarded the **College of Nanotechnology, Science, and Engineering (CNSE) Excellence in Teaching Award** for outstanding performance as a **Teaching Assistant** in the **Department of Electrical and Computer Engineering (ECE)**.
-- **08/2024** — Started PhD studies in the **Department of Electrical and Computer Engineering** at the **University at Albany (SUNY)**.
-- **06/2024** — Concluded teaching appointments at **Presidency University** and **Bangladesh University of Textiles (BUTEX)** in preparation for PhD studies at **UAlbany**, joining **IMAgINELab**.
-- **02/2024** — Appointed **Adjunct Lecturer** in the **Department of Textile Machinery Design and Maintenance (TMDM)** at **Bangladesh University of Textiles (BUTEX)**.
-- **01/2024** — Appointed **Part-Time Lecturer** in the **Department of Electrical and Electronic Engineering** at **Presidency University**, Dhaka.
-- **05/2023** — Completed **B.Sc. in Electrical and Electronic Engineering (EEE)** from the **Bangladesh University of Engineering and Technology (BUET)**.
+<h2>News</h2>
+
+<ul>
+  <li><strong>05/2026</strong> — Passed the <strong>Doctoral Qualifying Examination (DQE)</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
+
+  <li><strong>05/2026</strong> — Awarded the <strong>CNSE Excellence in Teaching Award</strong> for outstanding performance as a <strong>Teaching Assistant</strong> in the <strong>Department of ECE</strong> for the second consecutive year.</li>
+
+  <li><strong>02/2026</strong> — Paper submitted to the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>.</li>
+
+  <li><strong>01/2026</strong> — Paper <em>“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”</em> rejected from <strong>ICASSP 2026</strong> with minor reviewer feedback.</li>
+
+  <li><strong>09/2025</strong> — Paper submitted to <strong>ICASSP 2026</strong>.</li>
+
+  <li><strong>03/2025</strong> — Awarded the <strong>CNSE Excellence in Teaching Award</strong> for outstanding performance as a <strong>Teaching Assistant</strong> in the <strong>Department of Electrical and Computer Engineering (ECE)</strong>.</li>
+
+  <li><strong>08/2024</strong> — Started PhD studies in the <strong>Department of Electrical and Computer Engineering</strong> at the <strong>University at Albany (SUNY)</strong>.</li>
+
+  <li><strong>06/2024</strong> — Concluded teaching appointments at <strong>Presidency University</strong> and <strong>Bangladesh University of Textiles (BUTEX)</strong> in preparation for PhD studies at <strong>UAlbany</strong>, joining <strong>IMAgINELab</strong>.</li>
+
+  <li><strong>02/2024</strong> — Appointed <strong>Adjunct Lecturer</strong> in the <strong>Department of Textile Machinery Design and Maintenance (TMDM)</strong> at <strong>Bangladesh University of Textiles (BUTEX)</strong>.</li>
+
+  <li><strong>01/2024</strong> — Appointed <strong>Part-Time Lecturer</strong> in the <strong>Department of Electrical and Electronic Engineering</strong> at <strong>Presidency University</strong>, Dhaka.</li>
+
+  <li><strong>05/2023</strong> — Completed <strong>B.Sc. in Electrical and Electronic Engineering (EEE)</strong> from the <strong>Bangladesh University of Engineering and Technology (BUET)</strong>.</li>
+</ul>
 
 </div>
+```
 
 
 
