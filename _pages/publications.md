@@ -26,5 +26,5 @@ Published in Taylor & Francis.  <a href="https://www.taylorfrancis.com/chapters/
 **Joy Saha** and Daphney-Stavroula Zois  
 
 Accepted at the *2026 34th European Signal Processing Conference (EUSIPCO)*, Bruges, Belgium, 2026.  
-(Under publication)
+<a href="https://par.nsf.gov/servlets/purl/10683977" target="_blank"> [Link]<a>
 
