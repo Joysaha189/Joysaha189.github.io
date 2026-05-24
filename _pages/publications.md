@@ -25,6 +25,5 @@ Published in Taylor & Francis.  <a href="https://www.taylorfrancis.com/chapters/
 **Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification**  
 **Joy Saha** and Daphney-Stavroula Zois  
 
-Accepted at the *2026 34th European Signal Processing Conference (EUSIPCO)*, Bruges, Belgium, 2026.  
-<a href="https://par.nsf.gov/servlets/purl/10683977" target="_blank"> [Link]<a>
+Accepted at the *2026 34th European Signal Processing Conference (EUSIPCO)*, Bruges, Belgium, 2026. <a href="https://par.nsf.gov/servlets/purl/10683977" target="_blank"> [Link]<a>
 
