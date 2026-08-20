@@ -27,6 +27,8 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 - Cost–accuracy trade-offs  
 - Resource-aware and adaptive machine learning  
 - Multi-view Learning
+
+
 ---
 
 
