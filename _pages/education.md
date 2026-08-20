@@ -210,6 +210,7 @@ header:
           <li>Optimization Methods and Non-linear Programming</li>
           <li>Probabilistic Machine Learning</li>
           <li>Deep Learning</li>
+          <li>Artificial Intelligence I<\li>
           <li>Foundations of Statistical Inference</li>
           <li>Algorithms and Data Structures</li>
         </ul>
