@@ -193,9 +193,9 @@ header:
           <ul>
             <li>IECE 371 — Signals and Systems (Fall 2024)</li>
             <li>IECE 300 — Introduction to Electronics (Fall 2024)</li>
-            <li>IECE 442 — System Analysis and Design (Spring 2025)</li>
+            <li>IECE 442 — System Analysis and Design (Spring 2025, Fall 2026)</li>
             <li>IECE 310 — Engineering Electromagnetics (Spring 2025, 2026)</li>
-            <li>IECE 490/1 — Electrical System Design (Fall 2025, Spring 2026)</li>
+            <li>IECE 490/1 — Electrical System Design (Fall 2025,2026, Spring 2026)</li>
           </ul>
         </li>
       </ul>
