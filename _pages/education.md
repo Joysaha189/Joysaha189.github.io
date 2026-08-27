@@ -213,6 +213,7 @@ header:
           <li>Artificial Intelligence I</li>
           <li>Foundations of Statistical Inference</li>
           <li>Algorithms and Data Structures</li>
+          <li>Advanced Linear Algebra</li>
         </ul>
       </div>
     </div>
