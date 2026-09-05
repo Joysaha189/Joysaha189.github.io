@@ -38,6 +38,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
 
 <ul>
+  <li><strong>09/2026</strong> — Presented the work at <strong>EUSIPCO 2026</strong> in <strong>Bruges, Belgium</strong>, shortlisted among the <strong>Top 10 Best Student Papers</strong>.</li>
 
   <li><strong>05/2026</strong> — Paper <em>“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”</em> accepted at the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>. Looking forward to presenting the work in <strong>Bruges, Belgium</strong>.</li>
 
@@ -47,7 +48,7 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
   <li><strong>02/2026</strong> — Paper submitted to the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>.</li>
 
-  <li><strong>01/2026</strong> — Paper <em>“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”</em> rejected from <strong>ICASSP 2026</strong> with minor reviewer feedback.</li>
+  <li><strong>01/2026</strong> — Paper rejected from <strong>ICASSP 2026</strong> with minor reviewer feedback.</li>
 
   <li><strong>09/2025</strong> — Paper submitted to <strong>ICASSP 2026</strong>.</li>
 
