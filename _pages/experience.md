@@ -215,7 +215,7 @@ header:
       <div class="meta">Department of Electrical and Computer Engineering</div>
       <ul>
         <li>
-          Developed a sequential, instance-specific feature/view acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. 
+          Developed a sequential, instance-specific feature/view acquisition framework with dynamic group sizing to balance accuracy and cost; reduced cost usage and adaptive stopping while sustaining or improving classification. 
         </li>
       </ul>
     </div>
