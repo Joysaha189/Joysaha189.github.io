@@ -181,7 +181,7 @@ header:
     <div class="exp-date">
       Aug 2024 – May 2025<br/>
       Aug 2025 – May 2026<br/>
-      Aug 2026 – Present<br>
+      Aug 2026 – Present<br/>
     </div>
     <div class="exp-content">
       <h3>Graduate Teaching Assistant</h3>
