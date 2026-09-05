@@ -180,7 +180,8 @@ header:
   <div class="exp-item">
     <div class="exp-date">
       Aug 2024 – May 2025<br/>
-      Aug 2025 – May 2026<br>
+      Aug 2025 – May 2026<br/>
+      Aug 2026 - Present<br>
     </div>
     <div class="exp-content">
       <h3>Graduate Teaching Assistant</h3>
@@ -206,7 +207,7 @@ header:
   <div class="exp-item">
     <div class="exp-date"> 
       May 2025 – Aug 2025<br/>
-      May 2026 – Present<br>
+      May 2026 – Aug 2026<br>
     </div>
     <div class="exp-content">
       <h3>Research Project Assistant</h3>
@@ -214,7 +215,7 @@ header:
       <div class="meta">Department of Electrical and Computer Engineering</div>
       <ul>
         <li>
-          Developed a sequential, instance-specific feature acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. Evaluated on nine public datasets; extended toward a journal paper with initial results submitted to ICASSP 2026.
+          Developed a sequential, instance-specific feature/view acquisition framework with dynamic group sizing to balance accuracy and cost; reduced feature usage and inference time while sustaining or improving classification. 
         </li>
       </ul>
     </div>
