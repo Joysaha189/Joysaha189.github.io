@@ -38,6 +38,12 @@ My research interests focus on **adaptive, cost-aware, and interpretable machine
 
 
 <ul>
+  <li><strong>10/2026</strong> — Awarded the <strong>John J. Sullivan Award</strong> by <strong>CNSE</strong> for EUSIPCO 2026.</li>
+  
+  <li><strong>09/2026</strong> — Paper submitted to <strong>ICASSP 2027</strong>, <strong>Toronto, Canada</strong>.</li>
+  
+  <li><strong>09/2026</strong> — <strong>IEEE TAI</strong> manuscript rejected with <strong>resubmission invited</strong>.</li>
+  
   <li><strong>09/2026</strong> — Presented the work at <strong>EUSIPCO 2026</strong> in <strong>Bruges, Belgium</strong>, shortlisted among the <strong>Top 10 Best Student Papers</strong>.</li>
 
   <li><strong>05/2026</strong> — Paper <em>“Adaptive Sequential Feature Grouping and Acquisition for Cost–Efficient Classification”</em> accepted at the <strong>European Signal Processing Conference (EUSIPCO 2026)</strong>. Looking forward to presenting the work in <strong>Bruges, Belgium</strong>.</li>
